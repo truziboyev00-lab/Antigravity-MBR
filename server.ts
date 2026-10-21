@@ -17,14 +17,27 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json({ limit: '15mb' }));
 
-// Server-side initialization of Gemini client
-const ai = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY,
-  httpOptions: {
-    headers: {
-      'User-Agent': 'aistudio-build',
-    }
+// SAFE PUBLIC PREVIEW: Disable billable AI endpoints until authentication,
+// request limits, and spending limits are configured.
+const PUBLIC_PREVIEW_ONLY = true;
+const ai = process.env.GEMINI_API_KEY
+  ? new GoogleGenAI({
+      apiKey: process.env.GEMINI_API_KEY,
+      httpOptions: { headers: { 'User-Agent': 'aistudio-build' } },
+    })
+  : null;
+
+function requireAI(): GoogleGenAI {
+  if (!ai) throw new Error('Gemini AI is not configured.');
+  return ai;
+}
+
+app.use('/api/gemini', (_req: Request, res: Response, next) => {
+  if (PUBLIC_PREVIEW_ONLY) {
+    res.status(503).json({ error: 'AI is disabled in this public preview.' });
+    return;
   }
+  next();
 });
 
 const DEFAULT_SYSTEM_INSTRUCTION = `You are the Senior Process Automation & Chemical Engineering Specialist for Unit 77 and the Universal Multi-Plant Industrial Membrane Bioreactor (MBR) Fleet (T01-T07).
@@ -125,7 +138,7 @@ async function robustGenerateContent({
     // 1. If search is requested and hasn't failed quota yet, try with search tool
     if (enableSearch && !searchExceeded) {
       try {
-        const response = await ai.models.generateContent({
+        const response = await requireAI().models.generateContent({
           model,
           contents,
           config: {
@@ -153,7 +166,7 @@ async function robustGenerateContent({
 
     // 2. Direct generation without search tool (Ultra-fast, immune to search tool quota)
     try {
-      const response = await ai.models.generateContent({
+      const response = await requireAI().models.generateContent({
         model,
         contents,
         config: {
@@ -297,7 +310,7 @@ app.post('/api/gemini/search', async (req: Request, res: Response) => {
 
     for (const sModel of searchModels) {
       try {
-        const response = await ai.models.generateContent({
+        const response = await requireAI().models.generateContent({
           model: sModel,
           contents: prompt,
           config: {
@@ -374,6 +387,10 @@ const wss = new WebSocketServer({ noServer: true });
 httpServer.on('upgrade', (request, socket, head) => {
   const { pathname } = new URL(request.url || '', `http://${request.headers.host}`);
   if (pathname === '/api/live' || pathname === '/live') {
+    if (PUBLIC_PREVIEW_ONLY) {
+      socket.end('HTTP/1.1 503 Service Unavailable\r\nConnection: close\r\n\r\n');
+      return;
+    }
     wss.handleUpgrade(request, socket, head, (ws) => {
       wss.emit('connection', ws, request);
     });
@@ -389,7 +406,7 @@ wss.on('connection', async (clientWs: WebSocket, request: any) => {
   let isClosing = false;
 
   try {
-    session = await ai.live.connect({
+    session = await requireAI().live.connect({
       model: 'gemini-3.8-live',
       config: {
         responseModalities: [Modality.AUDIO],
