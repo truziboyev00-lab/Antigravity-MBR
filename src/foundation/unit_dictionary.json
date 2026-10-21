@@ -1,0 +1,294 @@
+[
+  {
+    "unitCode": "LMH",
+    "dimension": "FLUX",
+    "baseUnit": "LMH",
+    "standardSymbol": "L/(m²·h)",
+    "description": "Liters per square meter per hour (primary membrane flux unit)",
+    "conversions": {
+      "GFD": 0.5886,
+      "m/s": 2.77778e-7,
+      "m3/(m2*d)": 0.024
+    }
+  },
+  {
+    "unitCode": "kPa",
+    "dimension": "PRESSURE",
+    "baseUnit": "kPa",
+    "standardSymbol": "kPa",
+    "description": "Kilopascals (primary transmembrane and header pressure unit)",
+    "conversions": {
+      "bar": 0.01,
+      "mbar": 10.0,
+      "psi": 0.145038,
+      "m_H2O": 0.101972,
+      "Pa": 1000.0
+    }
+  },
+  {
+    "unitCode": "bar",
+    "dimension": "PRESSURE",
+    "baseUnit": "kPa",
+    "standardSymbol": "bar",
+    "description": "Bar (used in permeability denominator)",
+    "conversions": {
+      "kPa": 100.0,
+      "psi": 14.5038
+    }
+  },
+  {
+    "unitCode": "LMH/bar",
+    "dimension": "PERMEABILITY",
+    "baseUnit": "LMH/bar",
+    "standardSymbol": "L/(m²·h·bar)",
+    "description": "Permeability (Flux normalized by TMP in bar)",
+    "conversions": {
+      "LMH/kPa": 0.01,
+      "m/(s*Pa)": 2.77778e-12
+    }
+  },
+  {
+    "unitCode": "LMH/kPa",
+    "dimension": "PERMEABILITY",
+    "baseUnit": "LMH/bar",
+    "standardSymbol": "L/(m²·h·kPa)",
+    "description": "Specific Flux (Flux normalized directly by TMP in kPa)",
+    "conversions": {
+      "LMH/bar": 100.0
+    }
+  },
+  {
+    "unitCode": "m3/h",
+    "dimension": "FLOW",
+    "baseUnit": "m3/h",
+    "standardSymbol": "m³/h",
+    "description": "Cubic meters per hour (volumetric flow rate)",
+    "conversions": {
+      "L/s": 0.277778,
+      "L/min": 16.6667,
+      "m3/d": 24.0,
+      "MGD": 0.00634013,
+      "gpm": 4.40287
+    }
+  },
+  {
+    "unitCode": "m3/d",
+    "dimension": "FLOW",
+    "baseUnit": "m3/h",
+    "standardSymbol": "m³/d",
+    "description": "Cubic meters per day (sludge wastage and plant daily volume)",
+    "conversions": {
+      "m3/h": 0.0416667,
+      "MGD": 0.000264172
+    }
+  },
+  {
+    "unitCode": "Nm3/h",
+    "dimension": "FLOW",
+    "baseUnit": "Nm3/h",
+    "standardSymbol": "Nm³/h",
+    "description": "Normal cubic meters per hour (air scour volumetric flow at 0°C, 101.3 kPa)",
+    "conversions": {
+      "SCFM": 0.5886,
+      "Nm3/min": 0.0166667
+    }
+  },
+  {
+    "unitCode": "Nm3/m3",
+    "dimension": "RATIO",
+    "baseUnit": "Nm3/m3",
+    "standardSymbol": "Nm³/m³",
+    "description": "Specific Aeration Demand per permeate volume (SAD_p)",
+    "conversions": {
+      "scf/gal": 0.133681
+    }
+  },
+  {
+    "unitCode": "Nm3/m2/h",
+    "dimension": "RATIO",
+    "baseUnit": "Nm3/m2/h",
+    "standardSymbol": "Nm³/(m²·h)",
+    "description": "Specific Aeration Demand per membrane area (SAD_m)",
+    "conversions": {
+      "scfm/ft2": 0.05468
+    }
+  },
+  {
+    "unitCode": "°C",
+    "dimension": "TEMPERATURE",
+    "baseUnit": "°C",
+    "standardSymbol": "°C",
+    "description": "Degrees Celsius (process temperature normalized to 20°C standard)",
+    "conversions": {
+      "K": 274.15
+    }
+  },
+  {
+    "unitCode": "mg/L",
+    "dimension": "CONCENTRATION",
+    "baseUnit": "mg/L",
+    "standardSymbol": "mg/L",
+    "description": "Milligrams per liter (MLSS, MLVSS, COD, BOD, DO, TSS)",
+    "conversions": {
+      "g/L": 0.001,
+      "kg/m3": 0.001,
+      "ppm": 1.0
+    }
+  },
+  {
+    "unitCode": "d",
+    "dimension": "TIME",
+    "baseUnit": "d",
+    "standardSymbol": "days",
+    "description": "Days (SRT, HRT, cleaning interval tracking)",
+    "conversions": {
+      "h": 24.0,
+      "s": 86400.0
+    }
+  },
+  {
+    "unitCode": "h",
+    "dimension": "TIME",
+    "baseUnit": "h",
+    "standardSymbol": "hours",
+    "description": "Hours (operating hours since clean, filtration cycles)",
+    "conversions": {
+      "min": 60.0,
+      "s": 3600.0,
+      "d": 0.0416667
+    }
+  },
+  {
+    "unitCode": "s",
+    "dimension": "TIME",
+    "baseUnit": "s",
+    "standardSymbol": "seconds",
+    "description": "Seconds (cycle production time, relaxation time, backpulse duration)",
+    "conversions": {
+      "min": 0.0166667,
+      "h": 0.000277778
+    }
+  },
+  {
+    "unitCode": "m",
+    "dimension": "LENGTH",
+    "baseUnit": "m",
+    "standardSymbol": "m",
+    "description": "Meters (membrane tank liquid level and submergence depth)",
+    "conversions": {
+      "mm": 1000.0,
+      "ft": 3.28084
+    }
+  },
+  {
+    "unitCode": "m2",
+    "dimension": "AREA",
+    "baseUnit": "m2",
+    "standardSymbol": "m²",
+    "description": "Square meters (membrane surface area)",
+    "conversions": {
+      "ft2": 10.7639
+    }
+  },
+  {
+    "unitCode": "kg",
+    "dimension": "MASS",
+    "baseUnit": "kg",
+    "standardSymbol": "kg",
+    "description": "Kilograms (biological solids inventory mass)",
+    "conversions": {
+      "g": 1000.0,
+      "lb": 2.20462,
+      "ton": 0.001
+    }
+  },
+  {
+    "unitCode": "kg/d",
+    "dimension": "MASS_RATE",
+    "baseUnit": "kg/d",
+    "standardSymbol": "kg/d",
+    "description": "Kilograms per day (WAS daily dry solids wasting rate)",
+    "conversions": {
+      "lb/d": 2.20462,
+      "kg/h": 0.0416667
+    }
+  },
+  {
+    "unitCode": "1/m",
+    "dimension": "RESISTANCE",
+    "baseUnit": "1/m",
+    "standardSymbol": "m⁻¹",
+    "description": "Reciprocal meters (Darcy hydraulic membrane resistance Rm, Rtot, Rf)",
+    "conversions": {
+      "1/cm": 0.01
+    }
+  },
+  {
+    "unitCode": "kPa/h",
+    "dimension": "RATE_OF_CHANGE",
+    "baseUnit": "kPa/h",
+    "standardSymbol": "kPa/h",
+    "description": "Transmembrane pressure rate of rise per hour (fouling velocity)",
+    "conversions": {
+      "bar/d": 0.24,
+      "mbar/min": 0.166667
+    }
+  },
+  {
+    "unitCode": "kPa/h2",
+    "dimension": "RATE_OF_CHANGE",
+    "baseUnit": "kPa/h2",
+    "standardSymbol": "kPa/h²",
+    "description": "Transmembrane pressure acceleration (second derivative d2TMP/dt2)",
+    "conversions": {}
+  },
+  {
+    "unitCode": "LMH/bar/d",
+    "dimension": "RATE_OF_CHANGE",
+    "baseUnit": "LMH/bar/d",
+    "standardSymbol": "LMH/(bar·d)",
+    "description": "Permeability decay rate per day",
+    "conversions": {
+      "LMH/bar/h": 0.0416667
+    }
+  },
+  {
+    "unitCode": "NTU",
+    "dimension": "TURBIDITY",
+    "baseUnit": "NTU",
+    "standardSymbol": "NTU",
+    "description": "Nephelometric Turbidity Units (optical integrity check for fiber breakage)",
+    "conversions": {
+      "FNU": 1.0
+    }
+  },
+  {
+    "unitCode": "kWh/m3",
+    "dimension": "ENERGY",
+    "baseUnit": "kWh/m3",
+    "standardSymbol": "kWh/m³",
+    "description": "Specific energy consumption per unit of permeate produced",
+    "conversions": {
+      "MJ/m3": 3.6,
+      "kWh/kgal": 3.78541
+    }
+  },
+  {
+    "unitCode": "%",
+    "dimension": "RATIO",
+    "baseUnit": "%",
+    "standardSymbol": "%",
+    "description": "Percentage (capacity margin, cleaning recovery, MLVSS/MLSS, VFD speed)",
+    "conversions": {
+      "fraction": 0.01
+    }
+  },
+  {
+    "unitCode": "-",
+    "dimension": "RATIO",
+    "baseUnit": "-",
+    "standardSymbol": "[-]",
+    "description": "Dimensionless ratio (TCF, fouling index, peer normalized ratio)",
+    "conversions": {}
+  }
+]

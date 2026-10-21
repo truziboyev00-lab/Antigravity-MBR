@@ -1,0 +1,69 @@
+{
+  "standard": "IEEE/ISO Industrial Sensor Data Quality Specification",
+  "missingDataHandlingRule": "CRITICAL: Missing telemetry MUST NEVER be set to zero. Zero flow, zero TMP, or zero MLSS distorts mass balances and generates invalid alarms. Missing values must be flagged DQ_MISSING with configured fallback policy.",
+  "flags": [
+    {
+      "code": "DQ_GOOD",
+      "numericCode": 192,
+      "severity": "NORMAL",
+      "description": "Sensor value verified valid, in physical range, live dynamic variation present",
+      "treatment": "Directly fed into Excel formulas and Python digital twin"
+    },
+    {
+      "code": "DQ_UNCERTAIN",
+      "numericCode": 64,
+      "severity": "WATCH",
+      "description": "Sensor value suspect: high noise, slight drift relative to redundant peer, or operating near warning threshold",
+      "treatment": "Accepted with reduced analytical weight; flagged on operator dashboard"
+    },
+    {
+      "code": "DQ_BAD",
+      "numericCode": 0,
+      "severity": "CRITICAL",
+      "description": "Sensor out of electrical 4-20mA range, open wire, short circuit, or physically impossible value (e.g., negative absolute pressure, water temp > 50°C)",
+      "treatment": "Excluded from calculations; triggers sensor diagnostic alarm"
+    },
+    {
+      "code": "DQ_MISSING",
+      "numericCode": 16,
+      "severity": "WARNING",
+      "description": "Telemetry packet dropped or SCADA communication timeout; no value received",
+      "treatment": "Formula outputs #N/A or uses explicit imputation policy; NEVER imputed as 0.0"
+    },
+    {
+      "code": "DQ_FLATLINE",
+      "numericCode": 32,
+      "severity": "WARNING",
+      "description": "Sensor output remains exactly identical (variance = 0) over >60 consecutive samples during active pumping",
+      "treatment": "Identifies frozen transmitter diaphragm or PLC latch; excluded from rate-of-change formulas"
+    },
+    {
+      "code": "DQ_OUTLIER",
+      "numericCode": 48,
+      "severity": "WATCH",
+      "description": "Reading deviates by > 3 standard deviations or Hampel filter threshold from rolling median",
+      "treatment": "Replaced by rolling median for robust statistics; raw point preserved in audit log"
+    },
+    {
+      "code": "DQ_ESTIMATED",
+      "numericCode": 80,
+      "severity": "WATCH",
+      "description": "Value derived from soft sensor, peer train surrogate, or linear interpolation",
+      "treatment": "Permitted for secondary trends; marked clearly as soft-estimate"
+    },
+    {
+      "code": "DQ_CALCULATED",
+      "numericCode": 128,
+      "severity": "NORMAL",
+      "description": "Calculated parameter derived from 100% good input signals",
+      "treatment": "Standard physics output"
+    }
+  ],
+  "validationRules": {
+    "flatlineWindowSamples": 60,
+    "flatlineMaxVariance": 1e-6,
+    "hampelWindowSize": 15,
+    "hampelThresholdSigma": 3.0,
+    "rateOfChangeMaxMultiplier": 4.0
+  }
+}

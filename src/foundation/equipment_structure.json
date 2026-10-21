@@ -1,0 +1,123 @@
+{
+  "system": "UNIT 77 MBR",
+  "equipmentRegistry": [
+    {
+      "tag": "77-PMP-101A",
+      "name": "Train A Permeate Extraction Pump",
+      "type": "CENTRIFUGAL_PUMP",
+      "train": "TRAIN_A",
+      "designFlowM3h": 150.0,
+      "maxFlowM3h": 220.0,
+      "motorPowerKW": 22.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_771A", "SCADA_PT_771A", "SCADA_SI_771A"],
+      "criticalHealthMetrics": ["vfdSpeedPct", "vibrationMmS", "dischargePressureBar", "currentAmps"]
+    },
+    {
+      "tag": "77-PMP-101B",
+      "name": "Train B Permeate Extraction Pump",
+      "type": "CENTRIFUGAL_PUMP",
+      "train": "TRAIN_B",
+      "designFlowM3h": 150.0,
+      "maxFlowM3h": 220.0,
+      "motorPowerKW": 22.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_771B", "SCADA_PT_771B", "SCADA_SI_771B"],
+      "criticalHealthMetrics": ["vfdSpeedPct", "vibrationMmS", "dischargePressureBar", "currentAmps"]
+    },
+    {
+      "tag": "77-PMP-101C",
+      "name": "Train C Permeate Extraction Pump",
+      "type": "CENTRIFUGAL_PUMP",
+      "train": "TRAIN_C",
+      "designFlowM3h": 150.0,
+      "maxFlowM3h": 220.0,
+      "motorPowerKW": 22.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_771C", "SCADA_PT_771C", "SCADA_SI_771C"],
+      "criticalHealthMetrics": ["vfdSpeedPct", "vibrationMmS", "dischargePressureBar", "currentAmps"]
+    },
+    {
+      "tag": "77-PMP-101D",
+      "name": "Train D Permeate Extraction Pump",
+      "type": "CENTRIFUGAL_PUMP",
+      "train": "TRAIN_D",
+      "designFlowM3h": 150.0,
+      "maxFlowM3h": 220.0,
+      "motorPowerKW": 22.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_771D", "SCADA_PT_771D", "SCADA_SI_771D"],
+      "criticalHealthMetrics": ["vfdSpeedPct", "vibrationMmS", "dischargePressureBar", "currentAmps"]
+    },
+    {
+      "tag": "77-BLW-201A",
+      "name": "Train A Coarse Air Scour Blower",
+      "type": "ROTARY_SCREW_BLOWER",
+      "train": "TRAIN_A",
+      "designFlowNm3h": 1500.0,
+      "dischargePressureKPa": 55.0,
+      "motorPowerKW": 45.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_772A", "SCADA_PT_772A", "SCADA_TT_772A"],
+      "criticalHealthMetrics": ["bearingTempC", "differentialPressureKPa", "filterDeltaPKPa"]
+    },
+    {
+      "tag": "77-BLW-201B",
+      "name": "Train B Coarse Air Scour Blower",
+      "type": "ROTARY_SCREW_BLOWER",
+      "train": "TRAIN_B",
+      "designFlowNm3h": 1500.0,
+      "dischargePressureKPa": 55.0,
+      "motorPowerKW": 45.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_772B", "SCADA_PT_772B", "SCADA_TT_772B"],
+      "criticalHealthMetrics": ["bearingTempC", "differentialPressureKPa", "filterDeltaPKPa"]
+    },
+    {
+      "tag": "77-BLW-201C",
+      "name": "Train C Coarse Air Scour Blower",
+      "type": "ROTARY_SCREW_BLOWER",
+      "train": "TRAIN_C",
+      "designFlowNm3h": 1500.0,
+      "dischargePressureKPa": 55.0,
+      "motorPowerKW": 45.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_772C", "SCADA_PT_772C", "SCADA_TT_772C"],
+      "criticalHealthMetrics": ["bearingTempC", "differentialPressureKPa", "filterDeltaPKPa"]
+    },
+    {
+      "tag": "77-BLW-201D",
+      "name": "Train D Coarse Air Scour Blower",
+      "type": "ROTARY_SCREW_BLOWER",
+      "train": "TRAIN_D",
+      "designFlowNm3h": 1500.0,
+      "dischargePressureKPa": 55.0,
+      "motorPowerKW": 45.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_772D", "SCADA_PT_772D", "SCADA_TT_772D"],
+      "criticalHealthMetrics": ["bearingTempC", "differentialPressureKPa", "filterDeltaPKPa"]
+    },
+    {
+      "tag": "77-PMP-301",
+      "name": "Return Activated Sludge (RAS) Recirculation Pump",
+      "type": "AXIAL_FLOW_PUMP",
+      "train": "PLANT",
+      "designFlowM3h": 1200.0,
+      "motorPowerKW": 37.0,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_7740", "SCADA_SI_7740"],
+      "criticalHealthMetrics": ["flowRateM3h", "pumpPowerKW"]
+    },
+    {
+      "tag": "77-PMP-401",
+      "name": "Waste Activated Sludge (WAS) Pump",
+      "type": "PROGRESSIVE_CAVITY_PUMP",
+      "train": "PLANT",
+      "designFlowM3h": 25.0,
+      "motorPowerKW": 7.5,
+      "vfdEquipped": true,
+      "scadaSensors": ["SCADA_FIT_7750", "SCADA_SI_7750"],
+      "criticalHealthMetrics": ["dailyTotalVolumeM3", "dischargePressureBar"]
+    }
+  ]
+}

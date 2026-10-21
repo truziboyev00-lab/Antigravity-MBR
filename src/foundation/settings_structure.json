@@ -1,0 +1,61 @@
+{
+  "system": "UNIT 77 MBR",
+  "settingsVersion": "1.0.0",
+  "plantSettings": {
+    "plantDesignCapacityM3d": 18000.0,
+    "plantPeakCapacityM3d": 24000.0,
+    "aerobicTankVolumeTotalM3": 3600.0,
+    "anoxicTankVolumeTotalM3": 1800.0,
+    "membraneTankVolumeTotalM3": 720.0,
+    "totalBioreactorVolumeM3": 6120.0,
+    "temperatureRefC": 20.0,
+    "waterDensityKgM3": 1000.0,
+    "waterViscosity20CmPas": 1.002,
+    "arrheniusViscosityA": 1.784,
+    "arrheniusViscosityB": 0.0337,
+    "arrheniusViscosityC": 0.00022,
+    "permeabilityTempFactorTheta": 1.025
+  },
+  "trainSettings": {
+    "trainCount": 4,
+    "membraneAreaPerTrainM2": 4800.0,
+    "cassettesPerTrain": 4,
+    "modulesPerCassette": 24,
+    "moduleAreaM2": 50.0,
+    "tankVolumePerTrainM3": 180.0,
+    "designFluxLMH": 24.0,
+    "maxFluxLMH": 35.0,
+    "nominalCycleProductionSeconds": 540,
+    "nominalCycleRelaxationSeconds": 60,
+    "nominalCycleBackpulseSeconds": 30,
+    "cleanMembraneResistanceRm": 5.2e11
+  },
+  "biologicalSettings": {
+    "targetSRTDays": 20.0,
+    "targetMLSSMembraneMgL": 9500.0,
+    "targetMLSSAerationMgL": 7500.0,
+    "targetMLVSSRatio": 0.72,
+    "targetDOAerationMgL": 2.2,
+    "targetDOMembraneMgL": 4.5,
+    "apparentYieldYobs": 0.35,
+    "endogenousDecayKd": 0.05
+  },
+  "cleaningSettings": {
+    "mcIntervalDaysTarget": 7.0,
+    "cipIntervalMonthsTarget": 6.0,
+    "mcNaOClConcentrationPpm": 500,
+    "mcCitricAcidConcentrationPpm": 2000,
+    "cipNaOClConcentrationPpm": 1500,
+    "cipCitricAcidConcentrationPpm": 5000,
+    "mcSoakDurationMinutes": 60,
+    "cipSoakDurationMinutes": 360,
+    "minAcceptablePermeabilityRecoveryPct": 70.0
+  },
+  "aerationSettings": {
+    "targetSADm": 0.28,
+    "targetSADp": 12.5,
+    "minAirFlowPerCassetteNm3h": 220.0,
+    "designAirFlowPerTrainNm3h": 1350.0,
+    "blowerHeaderPressureDesignKPa": 48.0
+  }
+}

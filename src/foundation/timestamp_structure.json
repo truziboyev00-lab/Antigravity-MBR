@@ -1,0 +1,42 @@
+{
+  "timeZone": "UTC",
+  "clockResolution": "MILLISECOND",
+  "isoFormat": "YYYY-MM-DDTHH:mm:ss.SSS[Z]",
+  "intervals": [
+    {
+      "tier": "TIER_0_HIGH_FREQ",
+      "name": "High-Frequency Cycle Logging",
+      "samplingIntervalSeconds": 1,
+      "purpose": "Cycle analysis (suction phase, relaxation phase, backpulse pressure spike, valve transition)",
+      "retentionDays": 7
+    },
+    {
+      "tier": "TIER_1_RAW_TELEMETRY",
+      "name": "SCADA Telemetry Base",
+      "samplingIntervalSeconds": 60,
+      "purpose": "Continuous operating trends: TMP, Flux, Air Scour, DO, Level, VFD Speed",
+      "retentionDays": 90
+    },
+    {
+      "tier": "TIER_2_STAGED_15MIN",
+      "name": "Data Staging & Feature Store",
+      "samplingIntervalSeconds": 900,
+      "purpose": "Aggregated 15-minute statistics (mean, median, min, max, std-dev, dq_flag) for Excel Sheet 03 & Python analytics",
+      "retentionDays": 730
+    },
+    {
+      "tier": "TIER_3_HOURLY_DIAGNOSTICS",
+      "name": "Hourly Trend & Fouling Rate",
+      "samplingIntervalSeconds": 3600,
+      "purpose": "Permeability decay rate (dLp/dt), TMP rise velocity, energy intensity",
+      "retentionDays": 1825
+    },
+    {
+      "tier": "TIER_4_DAILY_MASS_BALANCE",
+      "name": "Daily Plant Balances & Biology",
+      "samplingIntervalSeconds": 86400,
+      "purpose": "Solids inventory, daily WAS mass, SRT calculation, water balance, chemical consumption",
+      "retentionDays": 3650
+    }
+  ]
+}

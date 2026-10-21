@@ -1,0 +1,389 @@
+{
+  "plantIdentity": {
+    "plantName": {
+      "value": "Unit 77 Industrial MBR Facility",
+      "unit": "string",
+      "source": "Plant P&ID / Facility Specification",
+      "sourceDoc": "DOC-77-MBR-SPEC-001",
+      "revision": "Rev 3.0",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15",
+      "comment": "Default plant baseline profile. Can be switched to any industrial MBR plant without source code changes."
+    },
+    "siteId": {
+      "value": "SITE_GTL_SHURTAN",
+      "unit": "string",
+      "source": "Corporate Enterprise Asset Management",
+      "sourceDoc": "SAP-PM-LOC-77",
+      "revision": "Rev 1.0",
+      "verificationStatus": "VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "unitId": {
+      "value": "UNIT_77",
+      "unit": "string",
+      "source": "DCS Tag Hierarchy",
+      "sourceDoc": "DCS-CTRL-77",
+      "revision": "Rev 2.0",
+      "verificationStatus": "VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "processType": {
+      "value": "Submerged Hollow Fiber MBR (Nitrification/Denitrification)",
+      "unit": "string",
+      "source": "Process Design Basis",
+      "sourceDoc": "PDB-77-001",
+      "revision": "Rev 4.0",
+      "verificationStatus": "OEM_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "configId": {
+      "value": "CFG-MBR-UNIVERSAL-V1.1",
+      "unit": "string",
+      "source": "Engineering System Configuration",
+      "sourceDoc": "ENG-CFG-001",
+      "revision": "Rev 1.1",
+      "verificationStatus": "VERIFIED",
+      "lastReviewed": "2026-09-20"
+    },
+    "configVersion": {
+      "value": "1.1.0",
+      "unit": "semver",
+      "source": "MBR Super Expert Release Governance",
+      "sourceDoc": "REL-V1.1.0",
+      "revision": "Rev 1.1.0",
+      "verificationStatus": "VERIFIED",
+      "lastReviewed": "2026-09-20"
+    }
+  },
+  "topology": {
+    "installedTrainCount": 4,
+    "maxSupportedTrains": 7,
+    "canonicalTrainIds": ["T01", "T02", "T03", "T04", "T05", "T06", "T07"]
+  },
+  "trains": [
+    {
+      "trainId": "T01",
+      "trainName": "MBR Train 01",
+      "installed": true,
+      "operatingStatus": "ONLINE",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "PVDF-HF-0.04u",
+      "membraneManufacturer": "Industrial Membrane OEM",
+      "cassettesCount": 4,
+      "modulesPerCassette": 24,
+      "tankVolumeM3": 200.0,
+      "cleanRm": 1.497e12,
+      "cleanPermeabilityLmhBar": 240.0,
+      "designFluxLmh": 24.0,
+      "maxDesignFluxLmh": 35.0,
+      "installDate": "2023-04-15",
+      "lastCleanDate": "2026-08-10",
+      "cleanCyclesCount": 42
+    },
+    {
+      "trainId": "T02",
+      "trainName": "MBR Train 02",
+      "installed": true,
+      "operatingStatus": "ONLINE",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "PVDF-HF-0.04u",
+      "membraneManufacturer": "Industrial Membrane OEM",
+      "cassettesCount": 4,
+      "modulesPerCassette": 24,
+      "tankVolumeM3": 200.0,
+      "cleanRm": 1.497e12,
+      "cleanPermeabilityLmhBar": 240.0,
+      "designFluxLmh": 24.0,
+      "maxDesignFluxLmh": 35.0,
+      "installDate": "2023-04-15",
+      "lastCleanDate": "2026-08-12",
+      "cleanCyclesCount": 39
+    },
+    {
+      "trainId": "T03",
+      "trainName": "MBR Train 03",
+      "installed": true,
+      "operatingStatus": "ONLINE",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "PVDF-HF-0.04u",
+      "membraneManufacturer": "Industrial Membrane OEM",
+      "cassettesCount": 4,
+      "modulesPerCassette": 24,
+      "tankVolumeM3": 200.0,
+      "cleanRm": 1.497e12,
+      "cleanPermeabilityLmhBar": 240.0,
+      "designFluxLmh": 24.0,
+      "maxDesignFluxLmh": 35.0,
+      "installDate": "2023-04-15",
+      "lastCleanDate": "2026-07-28",
+      "cleanCyclesCount": 51
+    },
+    {
+      "trainId": "T04",
+      "trainName": "MBR Train 04",
+      "installed": true,
+      "operatingStatus": "ONLINE",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "PVDF-HF-0.04u",
+      "membraneManufacturer": "Industrial Membrane OEM",
+      "cassettesCount": 4,
+      "modulesPerCassette": 24,
+      "tankVolumeM3": 200.0,
+      "cleanRm": 1.497e12,
+      "cleanPermeabilityLmhBar": 240.0,
+      "designFluxLmh": 24.0,
+      "maxDesignFluxLmh": 35.0,
+      "installDate": "2023-04-15",
+      "lastCleanDate": "2026-08-15",
+      "cleanCyclesCount": 36
+    },
+    {
+      "trainId": "T05",
+      "trainName": "MBR Train 05",
+      "installed": false,
+      "operatingStatus": "NOT_INSTALLED",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "NOT_CONFIGURED",
+      "membraneManufacturer": "NOT_CONFIGURED",
+      "cassettesCount": 0,
+      "modulesPerCassette": 0,
+      "tankVolumeM3": 0.0,
+      "cleanRm": 0.0,
+      "cleanPermeabilityLmhBar": 0.0,
+      "designFluxLmh": 0.0,
+      "maxDesignFluxLmh": 0.0,
+      "installDate": "NOT_CONFIGURED",
+      "lastCleanDate": "NOT_CONFIGURED",
+      "cleanCyclesCount": 0
+    },
+    {
+      "trainId": "T06",
+      "trainName": "MBR Train 06",
+      "installed": false,
+      "operatingStatus": "NOT_INSTALLED",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "NOT_CONFIGURED",
+      "membraneManufacturer": "NOT_CONFIGURED",
+      "cassettesCount": 0,
+      "modulesPerCassette": 0,
+      "tankVolumeM3": 0.0,
+      "cleanRm": 0.0,
+      "cleanPermeabilityLmhBar": 0.0,
+      "designFluxLmh": 0.0,
+      "maxDesignFluxLmh": 0.0,
+      "installDate": "NOT_CONFIGURED",
+      "lastCleanDate": "NOT_CONFIGURED",
+      "cleanCyclesCount": 0
+    },
+    {
+      "trainId": "T07",
+      "trainName": "MBR Train 07",
+      "installed": false,
+      "operatingStatus": "NOT_INSTALLED",
+      "membraneAreaM2": 4800.0,
+      "membraneModel": "NOT_CONFIGURED",
+      "membraneManufacturer": "NOT_CONFIGURED",
+      "cassettesCount": 0,
+      "modulesPerCassette": 0,
+      "tankVolumeM3": 0.0,
+      "cleanRm": 0.0,
+      "cleanPermeabilityLmhBar": 0.0,
+      "designFluxLmh": 0.0,
+      "maxDesignFluxLmh": 0.0,
+      "installDate": "NOT_CONFIGURED",
+      "lastCleanDate": "NOT_CONFIGURED",
+      "cleanCyclesCount": 0
+    }
+  ],
+  "tanks": {
+    "bioreactorVolumeM3": {
+      "value": 3200.0,
+      "unit": "m3",
+      "source": "Civil / Mechanical Data Sheet",
+      "sourceDoc": "MDS-TANK-77-01",
+      "revision": "Rev 2",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "anoxicBasinVolumeM3": {
+      "value": 1600.0,
+      "unit": "m3",
+      "source": "Process Flow Diagram",
+      "sourceDoc": "PFD-77-002",
+      "revision": "Rev 1",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "membraneTanksTotalVolumeM3": {
+      "value": 800.0,
+      "unit": "m3",
+      "source": "Membrane Cell Layout",
+      "sourceDoc": "DWG-77-MBR-010",
+      "revision": "Rev 3",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "totalLiquidVolumeM3": {
+      "value": 4000.0,
+      "unit": "m3",
+      "source": "Combined Hydraulic Design Basis",
+      "sourceDoc": "CALC-VOL-77",
+      "revision": "Rev 2",
+      "verificationStatus": "VERIFIED",
+      "lastReviewed": "2026-09-15"
+    }
+  },
+  "hydraulicDesign": {
+    "designInfluentFlowM3H": {
+      "value": 460.8,
+      "unit": "m3/h",
+      "source": "Plant Capacity Specification",
+      "sourceDoc": "SPEC-FLOW-77",
+      "revision": "Rev 3",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "designPermeateFlowM3H": {
+      "value": 460.8,
+      "unit": "m3/h",
+      "source": "Permeate Pump Station Design",
+      "sourceDoc": "SPEC-PMP-77",
+      "revision": "Rev 2",
+      "verificationStatus": "PLANT_DOCUMENT_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "filtrationDutyRatio": {
+      "value": 0.90,
+      "unit": "fraction",
+      "source": "Cycle Definition (9 min filtration / 10 min cycle)",
+      "sourceDoc": "SOP-MBR-CYCLE-01",
+      "revision": "Rev 4",
+      "verificationStatus": "OEM_VERIFIED",
+      "lastReviewed": "2026-09-15"
+    },
+    "backwashDurationSec": 45.0,
+    "relaxationDurationSec": 15.0
+  },
+  "operatingLimits": {
+    "tmp": {
+      "lowLowKpa": 2.0,
+      "normalMaxKpa": 35.0,
+      "alertKpa": 40.0,
+      "maintenanceCleanKpa": 45.0,
+      "emergencyStopKpa": 55.0,
+      "rateOfChangeAlertKpaH": 0.35,
+      "rateOfChangeAlarmKpaH": 0.50
+    },
+    "flux": {
+      "designAverageLmh": 24.0,
+      "sustainableMaxLmh": 30.0,
+      "peakPermissibleLmh": 35.0
+    },
+    "permeability": {
+      "cleanReferenceLmhBar": 240.0,
+      "lowAlertLmhBar": 120.0,
+      "lowAlarmLmhBar": 90.0,
+      "criticalLmhBar": 60.0
+    },
+    "biological": {
+      "targetMlssMgL": 8500.0,
+      "minMlssMgL": 6000.0,
+      "maxMlssMgL": 12000.0,
+      "targetSrtDays": 25.0,
+      "minSrtDays": 12.0,
+      "maxSrtDays": 90.0,
+      "targetDoMgL": 2.0,
+      "minDoMgL": 1.5,
+      "maxDoMgL": 3.5
+    },
+    "aeration": {
+      "minAirScourNm3HTrain": 400.0,
+      "nominalAirScourNm3HTrain": 600.0,
+      "maxAirScourNm3HTrain": 850.0
+    }
+  },
+  "tagMapping": {
+    "T01": {
+      "TMP": "177-PT-001A",
+      "PERMEATE_FLOW": "177-FT-001A",
+      "PERM_PRESSURE": "177-PT-002A",
+      "LEVEL": "177-LT-001A",
+      "TURBIDITY": "177-AIT-001A",
+      "AIR_SCOUR": "177-FIT-001A",
+      "PUMP_SPEED": "177-SI-101A",
+      "PUMP_POWER": "177-JI-101A"
+    },
+    "T02": {
+      "TMP": "177-PT-001B",
+      "PERMEATE_FLOW": "177-FT-001B",
+      "PERM_PRESSURE": "177-PT-002B",
+      "LEVEL": "177-LT-001B",
+      "TURBIDITY": "177-AIT-001B",
+      "AIR_SCOUR": "177-FIT-001B",
+      "PUMP_SPEED": "177-SI-101B",
+      "PUMP_POWER": "177-JI-101B"
+    },
+    "T03": {
+      "TMP": "177-PT-001C",
+      "PERMEATE_FLOW": "177-FT-001C",
+      "PERM_PRESSURE": "177-PT-002C",
+      "LEVEL": "177-LT-001C",
+      "TURBIDITY": "177-AIT-001C",
+      "AIR_SCOUR": "177-FIT-001C",
+      "PUMP_SPEED": "177-SI-101C",
+      "PUMP_POWER": "177-JI-101C"
+    },
+    "T04": {
+      "TMP": "177-PT-001D",
+      "PERMEATE_FLOW": "177-FT-001D",
+      "PERM_PRESSURE": "177-PT-002D",
+      "LEVEL": "177-LT-001D",
+      "TURBIDITY": "177-AIT-001D",
+      "AIR_SCOUR": "177-FIT-001D",
+      "PUMP_SPEED": "177-SI-101D",
+      "PUMP_POWER": "177-JI-101D"
+    },
+    "T05": {
+      "TMP": "177-PT-001E",
+      "PERMEATE_FLOW": "177-FT-001E",
+      "PERM_PRESSURE": "177-PT-002E",
+      "LEVEL": "177-LT-001E",
+      "TURBIDITY": "177-AIT-001E",
+      "AIR_SCOUR": "177-FIT-001E",
+      "PUMP_SPEED": "177-SI-101E",
+      "PUMP_POWER": "177-JI-101E"
+    },
+    "T06": {
+      "TMP": "177-PT-001F",
+      "PERMEATE_FLOW": "177-FT-001F",
+      "PERM_PRESSURE": "177-PT-002F",
+      "LEVEL": "177-LT-001F",
+      "TURBIDITY": "177-AIT-001F",
+      "AIR_SCOUR": "177-FIT-001F",
+      "PUMP_SPEED": "177-SI-101F",
+      "PUMP_POWER": "177-JI-101F"
+    },
+    "T07": {
+      "TMP": "177-PT-001G",
+      "PERMEATE_FLOW": "177-FT-001G",
+      "PERM_PRESSURE": "177-PT-002G",
+      "LEVEL": "177-LT-001G",
+      "TURBIDITY": "177-AIT-001G",
+      "AIR_SCOUR": "177-FIT-001G",
+      "PUMP_SPEED": "177-SI-101G",
+      "PUMP_POWER": "177-JI-101G"
+    },
+    "PLANT": {
+      "INFLUENT_FLOW": "177-FIT-100",
+      "EFFLUENT_FLOW": "177-FIT-200",
+      "TEMPERATURE": "177-TT-101",
+      "RAS_FLOW": "177-FIT-301",
+      "WAS_FLOW": "177-FIT-302",
+      "MLSS_BIOREACTOR": "177-AIT-401",
+      "MLSS_MBR_HEADER": "177-AIT-402",
+      "DO_BIOREACTOR": "177-AIT-501",
+      "TOTAL_BLOWER_AIR": "177-FIT-600"
+    }
+  }
+}

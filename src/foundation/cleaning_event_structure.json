@@ -1,0 +1,74 @@
+{
+  "system": "UNIT 77 MBR",
+  "cleaningTypes": [
+    {
+      "typeCode": "RELAXATION",
+      "name": "Periodic Relaxation Cycle",
+      "chemicalRequired": false,
+      "typicalDurationSeconds": 60,
+      "frequencyMinutes": 10,
+      "targetMechanism": "Cessation of suction while air scouring shears loose reversible cake solids off fiber surface",
+      "effectivenessMetric": "Immediate post-relaxation TMP drop (typically 1-3 kPa)"
+    },
+    {
+      "typeCode": "BACKPULSE",
+      "name": "Permeate Backpulse Flush",
+      "chemicalRequired": false,
+      "typicalDurationSeconds": 30,
+      "frequencyHours": 1,
+      "targetMechanism": "Reversal of flow to dislodge internal pore constriction and surface cake matrix",
+      "effectivenessMetric": "Backpulse pressure differential and immediate permeability reset"
+    },
+    {
+      "typeCode": "MAINTENANCE_CLEAN_NAOCL",
+      "name": "Maintenance Clean (Sodium Hypochlorite)",
+      "chemicalRequired": true,
+      "chemical": "NaOCl",
+      "concentrationPpm": 500,
+      "typicalDurationMinutes": 60,
+      "frequencyDays": 7,
+      "targetMechanism": "Oxidation and solubilization of organic extracellular polymeric substances (EPS), biofilms, and pore foulants",
+      "effectivenessMetric": "Recovery of Lp_20 towards pre-fouled baseline (>80% recovery target)"
+    },
+    {
+      "typeCode": "MAINTENANCE_CLEAN_CITRIC",
+      "name": "Maintenance Clean (Citric Acid)",
+      "chemicalRequired": true,
+      "chemical": "Citric Acid",
+      "concentrationPpm": 2000,
+      "typicalDurationMinutes": 60,
+      "frequencyDays": 14,
+      "targetMechanism": "Chelation and dissolution of inorganic scaling (calcium phosphate, calcium carbonate, iron precipitates)",
+      "effectivenessMetric": "Recovery of permeability lost to mineral scaling"
+    },
+    {
+      "typeCode": "CIP_RECOVERY",
+      "name": "Intensive Clean-In-Place (CIP)",
+      "chemicalRequired": true,
+      "chemical": "Sequential NaOCl (1500 ppm) + Citric Acid (5000 ppm)",
+      "typicalDurationMinutes": 480,
+      "frequencyMonths": 6,
+      "targetMechanism": "Full chemical soak and recirculation to restore irreversible fouling and return membrane resistance near clean Rm",
+      "effectivenessMetric": "Clean water permeability restoration (>90% of virgin module Rm)"
+    }
+  ],
+  "eventSchema": {
+    "requiredFields": [
+      "eventId",
+      "trainId",
+      "cleaningType",
+      "startTimestamp",
+      "endTimestamp",
+      "tmpPreCleanKPa",
+      "tmpPostCleanKPa",
+      "lp20PreCleanLMHbar",
+      "lp20PostCleanLMHbar"
+    ],
+    "calculatedFields": [
+      "durationMinutes",
+      "absoluteLpRecoveryLMHbar",
+      "recoveryEfficiencyPct",
+      "cleaningSuccessRating"
+    ]
+  }
+}

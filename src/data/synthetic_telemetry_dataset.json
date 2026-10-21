@@ -1,0 +1,5050 @@
+{
+  "asset": "Unit 77 Industrial Membrane Bioreactor",
+  "dataset_name": "Synthetic 7-Day Multi-Train Operations Benchmark",
+  "version": "v1.0.0",
+  "sampling_interval": "1 hour",
+  "total_samples": 168,
+  "duration_hours": 168,
+  "records": [
+    {
+      "timestamp_hour": 0,
+      "iso_timestamp": "2026-09-20T00:00:00Z",
+      "plant_feed_flow_m3_h": 459.99,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8200.0,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.8,
+          "tmp_kpa": 17.93,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.42,
+          "tmp_kpa": 20.19,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.43,
+          "tmp_kpa": 21.99,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.34,
+          "tmp_kpa": 28.04,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 1,
+      "iso_timestamp": "2026-09-20T01:00:00Z",
+      "plant_feed_flow_m3_h": 458.36,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8213.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.49,
+          "tmp_kpa": 18.08,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.2,
+          "tmp_kpa": 20.29,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.26,
+          "tmp_kpa": 22.22,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.41,
+          "tmp_kpa": 28.19,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 2,
+      "iso_timestamp": "2026-09-20T02:00:00Z",
+      "plant_feed_flow_m3_h": 459.12,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8226.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.21,
+          "tmp_kpa": 18.19,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 20.05,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.37,
+          "tmp_kpa": 22.19,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.28,
+          "tmp_kpa": 28.0,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 3,
+      "iso_timestamp": "2026-09-20T03:00:00Z",
+      "plant_feed_flow_m3_h": 458.14,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8238.8,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 17.92,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.3,
+          "tmp_kpa": 20.28,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.08,
+          "tmp_kpa": 22.2,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.18,
+          "tmp_kpa": 28.32,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 4,
+      "iso_timestamp": "2026-09-20T04:00:00Z",
+      "plant_feed_flow_m3_h": 460.67,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8251.3,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.16,
+          "tmp_kpa": 18.22,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.93,
+          "tmp_kpa": 20.53,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.39,
+          "tmp_kpa": 22.14,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.19,
+          "tmp_kpa": 28.35,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 5,
+      "iso_timestamp": "2026-09-20T05:00:00Z",
+      "plant_feed_flow_m3_h": 461.86,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8263.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.28,
+          "tmp_kpa": 17.99,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.03,
+          "tmp_kpa": 20.57,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.3,
+          "tmp_kpa": 22.05,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.25,
+          "tmp_kpa": 28.12,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 6,
+      "iso_timestamp": "2026-09-20T06:00:00Z",
+      "plant_feed_flow_m3_h": 462.23,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8275.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.89,
+          "tmp_kpa": 18.37,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.95,
+          "tmp_kpa": 20.75,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.26,
+          "tmp_kpa": 22.13,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 28.46,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 7,
+      "iso_timestamp": "2026-09-20T07:00:00Z",
+      "plant_feed_flow_m3_h": 462.33,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8286.0,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.74,
+          "tmp_kpa": 18.16,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.54,
+          "tmp_kpa": 20.28,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.19,
+          "tmp_kpa": 22.1,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 28.62,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 8,
+      "iso_timestamp": "2026-09-20T08:00:00Z",
+      "plant_feed_flow_m3_h": 460.82,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8296.4,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.44,
+          "tmp_kpa": 18.43,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.42,
+          "tmp_kpa": 20.75,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.31,
+          "tmp_kpa": 22.31,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.66,
+          "tmp_kpa": 28.32,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 9,
+      "iso_timestamp": "2026-09-20T09:00:00Z",
+      "plant_feed_flow_m3_h": 462.46,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8306.1,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.8,
+          "tmp_kpa": 18.11,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.23,
+          "tmp_kpa": 20.97,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.05,
+          "tmp_kpa": 22.46,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.38,
+          "tmp_kpa": 28.36,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 10,
+      "iso_timestamp": "2026-09-20T10:00:00Z",
+      "plant_feed_flow_m3_h": 461.57,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8314.9,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.16,
+          "tmp_kpa": 18.4,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.97,
+          "tmp_kpa": 20.52,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 22.24,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.22,
+          "tmp_kpa": 28.45,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 11,
+      "iso_timestamp": "2026-09-20T11:00:00Z",
+      "plant_feed_flow_m3_h": 460.26,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8322.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 18.32,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.35,
+          "tmp_kpa": 20.66,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.72,
+          "tmp_kpa": 22.55,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.21,
+          "tmp_kpa": 28.53,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 12,
+      "iso_timestamp": "2026-09-20T12:00:00Z",
+      "plant_feed_flow_m3_h": 459.32,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8329.9,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 18.54,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.4,
+          "tmp_kpa": 20.96,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.96,
+          "tmp_kpa": 22.67,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.71,
+          "tmp_kpa": 28.76,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 13,
+      "iso_timestamp": "2026-09-20T13:00:00Z",
+      "plant_feed_flow_m3_h": 461.5,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 18.3,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.22,
+          "tmp_kpa": 20.8,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.44,
+          "tmp_kpa": 22.44,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.66,
+          "tmp_kpa": 28.76,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 14,
+      "iso_timestamp": "2026-09-20T14:00:00Z",
+      "plant_feed_flow_m3_h": 459.08,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 18.46,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.91,
+          "tmp_kpa": 20.83,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.48,
+          "tmp_kpa": 22.4,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.11,
+          "tmp_kpa": 28.84,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 15,
+      "iso_timestamp": "2026-09-20T15:00:00Z",
+      "plant_feed_flow_m3_h": 459.89,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 18.56,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.2,
+          "tmp_kpa": 21.47,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 22.58,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.17,
+          "tmp_kpa": 28.98,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 16,
+      "iso_timestamp": "2026-09-20T16:00:00Z",
+      "plant_feed_flow_m3_h": 462.72,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.74,
+          "tmp_kpa": 18.36,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.18,
+          "tmp_kpa": 21.24,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.7,
+          "tmp_kpa": 22.79,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.09,
+          "tmp_kpa": 29.1,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 17,
+      "iso_timestamp": "2026-09-20T17:00:00Z",
+      "plant_feed_flow_m3_h": 461.73,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.85,
+          "tmp_kpa": 18.68,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.03,
+          "tmp_kpa": 21.64,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.71,
+          "tmp_kpa": 22.88,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.15,
+          "tmp_kpa": 29.12,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 18,
+      "iso_timestamp": "2026-09-20T18:00:00Z",
+      "plant_feed_flow_m3_h": 462.7,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8350.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.76,
+          "tmp_kpa": 18.55,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.21,
+          "tmp_kpa": 21.38,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.94,
+          "tmp_kpa": 22.67,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.79,
+          "tmp_kpa": 29.1,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 19,
+      "iso_timestamp": "2026-09-20T19:00:00Z",
+      "plant_feed_flow_m3_h": 459.92,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 18.49,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.94,
+          "tmp_kpa": 21.63,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.49,
+          "tmp_kpa": 22.7,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.88,
+          "tmp_kpa": 28.96,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 20,
+      "iso_timestamp": "2026-09-20T20:00:00Z",
+      "plant_feed_flow_m3_h": 461.45,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 18.64,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.38,
+          "tmp_kpa": 21.71,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.31,
+          "tmp_kpa": 22.61,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.73,
+          "tmp_kpa": 29.23,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 21,
+      "iso_timestamp": "2026-09-20T21:00:00Z",
+      "plant_feed_flow_m3_h": 461.37,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 18.76,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.51,
+          "tmp_kpa": 21.48,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 22.66,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.24,
+          "tmp_kpa": 29.31,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 22,
+      "iso_timestamp": "2026-09-20T22:00:00Z",
+      "plant_feed_flow_m3_h": 463.06,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.11,
+          "tmp_kpa": 18.49,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 21.51,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.11,
+          "tmp_kpa": 22.93,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.04,
+          "tmp_kpa": 29.14,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 23,
+      "iso_timestamp": "2026-09-20T23:00:00Z",
+      "plant_feed_flow_m3_h": 460.52,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.7,
+          "tmp_kpa": 18.55,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.91,
+          "tmp_kpa": 22.13,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.9,
+          "tmp_kpa": 22.75,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.01,
+          "tmp_kpa": 29.19,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 24,
+      "iso_timestamp": "2026-09-21T00:00:00Z",
+      "plant_feed_flow_m3_h": 463.17,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8329.9,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.76,
+          "tmp_kpa": 18.54,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.05,
+          "tmp_kpa": 22.1,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.84,
+          "tmp_kpa": 23.13,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.52,
+          "tmp_kpa": 29.57,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 25,
+      "iso_timestamp": "2026-09-21T01:00:00Z",
+      "plant_feed_flow_m3_h": 461.09,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8322.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.29,
+          "tmp_kpa": 18.82,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.91,
+          "tmp_kpa": 22.03,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.18,
+          "tmp_kpa": 22.96,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 29.37,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 26,
+      "iso_timestamp": "2026-09-21T02:00:00Z",
+      "plant_feed_flow_m3_h": 461.69,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8314.9,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.16,
+          "tmp_kpa": 18.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.01,
+          "tmp_kpa": 21.97,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.14,
+          "tmp_kpa": 22.92,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.39,
+          "tmp_kpa": 29.74,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 27,
+      "iso_timestamp": "2026-09-21T03:00:00Z",
+      "plant_feed_flow_m3_h": 461.41,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8306.1,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 18.87,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.37,
+          "tmp_kpa": 21.98,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.59,
+          "tmp_kpa": 22.96,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.47,
+          "tmp_kpa": 29.82,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 28,
+      "iso_timestamp": "2026-09-21T04:00:00Z",
+      "plant_feed_flow_m3_h": 460.0,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8296.4,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.81,
+          "tmp_kpa": 18.91,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.72,
+          "tmp_kpa": 22.33,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 23.12,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.88,
+          "tmp_kpa": 29.57,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 29,
+      "iso_timestamp": "2026-09-21T05:00:00Z",
+      "plant_feed_flow_m3_h": 460.02,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8286.0,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.91,
+          "tmp_kpa": 18.76,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.17,
+          "tmp_kpa": 22.42,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.86,
+          "tmp_kpa": 23.17,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 29.66,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 30,
+      "iso_timestamp": "2026-09-21T06:00:00Z",
+      "plant_feed_flow_m3_h": 458.6,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8275.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.68,
+          "tmp_kpa": 19.08,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.14,
+          "tmp_kpa": 22.51,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 23.07,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.02,
+          "tmp_kpa": 29.72,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 31,
+      "iso_timestamp": "2026-09-21T07:00:00Z",
+      "plant_feed_flow_m3_h": 462.19,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8263.4,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.04,
+          "tmp_kpa": 18.94,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.55,
+          "tmp_kpa": 22.59,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.95,
+          "tmp_kpa": 23.36,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.65,
+          "tmp_kpa": 29.98,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 32,
+      "iso_timestamp": "2026-09-21T08:00:00Z",
+      "plant_feed_flow_m3_h": 461.73,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8251.3,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.28,
+          "tmp_kpa": 18.95,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.45,
+          "tmp_kpa": 22.8,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 23.43,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.03,
+          "tmp_kpa": 30.02,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 33,
+      "iso_timestamp": "2026-09-21T09:00:00Z",
+      "plant_feed_flow_m3_h": 460.78,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8238.8,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 19.03,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.54,
+          "tmp_kpa": 22.6,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.94,
+          "tmp_kpa": 23.39,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.05,
+          "tmp_kpa": 29.81,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 34,
+      "iso_timestamp": "2026-09-21T10:00:00Z",
+      "plant_feed_flow_m3_h": 460.8,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8226.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 19.21,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.67,
+          "tmp_kpa": 22.78,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.92,
+          "tmp_kpa": 23.3,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.35,
+          "tmp_kpa": 30.02,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 35,
+      "iso_timestamp": "2026-09-21T11:00:00Z",
+      "plant_feed_flow_m3_h": 462.29,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8213.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 18.92,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 22.68,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.91,
+          "tmp_kpa": 23.24,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.18,
+          "tmp_kpa": 30.0,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 36,
+      "iso_timestamp": "2026-09-21T12:00:00Z",
+      "plant_feed_flow_m3_h": 461.17,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8200.0,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.78,
+          "tmp_kpa": 18.95,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 22.59,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.38,
+          "tmp_kpa": 23.44,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.04,
+          "tmp_kpa": 30.04,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 37,
+      "iso_timestamp": "2026-09-21T13:00:00Z",
+      "plant_feed_flow_m3_h": 461.45,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8186.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 18.92,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.5,
+          "tmp_kpa": 22.95,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.42,
+          "tmp_kpa": 23.45,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.05,
+          "tmp_kpa": 30.03,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 38,
+      "iso_timestamp": "2026-09-21T14:00:00Z",
+      "plant_feed_flow_m3_h": 461.37,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8174.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.65,
+          "tmp_kpa": 19.13,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.53,
+          "tmp_kpa": 23.06,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.94,
+          "tmp_kpa": 23.52,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.24,
+          "tmp_kpa": 30.31,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 39,
+      "iso_timestamp": "2026-09-21T15:00:00Z",
+      "plant_feed_flow_m3_h": 463.26,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8161.2,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.95,
+          "tmp_kpa": 18.98,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.69,
+          "tmp_kpa": 23.17,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.63,
+          "tmp_kpa": 23.43,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.99,
+          "tmp_kpa": 30.46,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 40,
+      "iso_timestamp": "2026-09-21T16:00:00Z",
+      "plant_feed_flow_m3_h": 458.52,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8148.7,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.75,
+          "tmp_kpa": 19.38,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.86,
+          "tmp_kpa": 23.23,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.37,
+          "tmp_kpa": 23.48,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.53,
+          "tmp_kpa": 30.48,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 41,
+      "iso_timestamp": "2026-09-21T17:00:00Z",
+      "plant_feed_flow_m3_h": 460.57,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8136.6,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.16,
+          "tmp_kpa": 19.13,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.34,
+          "tmp_kpa": 23.25,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 23.6,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.11,
+          "tmp_kpa": 30.41,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 42,
+      "iso_timestamp": "2026-09-21T18:00:00Z",
+      "plant_feed_flow_m3_h": 459.9,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8125.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.44,
+          "tmp_kpa": 19.26,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.55,
+          "tmp_kpa": 23.54,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.11,
+          "tmp_kpa": 23.78,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.79,
+          "tmp_kpa": 30.51,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 43,
+      "iso_timestamp": "2026-09-21T19:00:00Z",
+      "plant_feed_flow_m3_h": 463.77,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8114.0,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.68,
+          "tmp_kpa": 19.18,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 23.17,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 23.74,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.86,
+          "tmp_kpa": 30.62,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 44,
+      "iso_timestamp": "2026-09-21T20:00:00Z",
+      "plant_feed_flow_m3_h": 460.11,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8103.6,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.9,
+          "tmp_kpa": 19.29,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.97,
+          "tmp_kpa": 23.34,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.69,
+          "tmp_kpa": 23.95,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.55,
+          "tmp_kpa": 30.63,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 45,
+      "iso_timestamp": "2026-09-21T21:00:00Z",
+      "plant_feed_flow_m3_h": 460.03,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8093.9,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.76,
+          "tmp_kpa": 19.27,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.41,
+          "tmp_kpa": 23.76,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.43,
+          "tmp_kpa": 23.73,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.43,
+          "tmp_kpa": 30.7,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 46,
+      "iso_timestamp": "2026-09-21T22:00:00Z",
+      "plant_feed_flow_m3_h": 460.9,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8085.1,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 19.37,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.93,
+          "tmp_kpa": 23.49,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.83,
+          "tmp_kpa": 23.66,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.04,
+          "tmp_kpa": 30.71,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 47,
+      "iso_timestamp": "2026-09-21T23:00:00Z",
+      "plant_feed_flow_m3_h": 461.74,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8077.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 19.31,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.1,
+          "tmp_kpa": 23.51,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 24.06,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.06,
+          "tmp_kpa": 30.66,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 48,
+      "iso_timestamp": "2026-09-22T00:00:00Z",
+      "plant_feed_flow_m3_h": 346.53,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8070.1,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.11,
+          "tmp_kpa": 19.43,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.11,
+          "tmp_kpa": 23.76,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 116.31,
+          "tmp_kpa": 30.75,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 49,
+      "iso_timestamp": "2026-09-22T01:00:00Z",
+      "plant_feed_flow_m3_h": 348.39,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8064.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 19.64,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.45,
+          "tmp_kpa": 24.07,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 116.22,
+          "tmp_kpa": 30.79,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 50,
+      "iso_timestamp": "2026-09-22T02:00:00Z",
+      "plant_feed_flow_m3_h": 345.55,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8059.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.59,
+          "tmp_kpa": 19.68,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.26,
+          "tmp_kpa": 23.71,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.7,
+          "tmp_kpa": 30.98,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 51,
+      "iso_timestamp": "2026-09-22T03:00:00Z",
+      "plant_feed_flow_m3_h": 344.83,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8055.1,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.03,
+          "tmp_kpa": 19.62,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 23.78,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 115.58,
+          "tmp_kpa": 31.26,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 52,
+      "iso_timestamp": "2026-09-22T04:00:00Z",
+      "plant_feed_flow_m3_h": 346.9,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8052.3,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.17,
+          "tmp_kpa": 19.63,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.83,
+          "tmp_kpa": 24.26,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 115.91,
+          "tmp_kpa": 30.93,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 53,
+      "iso_timestamp": "2026-09-22T05:00:00Z",
+      "plant_feed_flow_m3_h": 344.78,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8050.6,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 19.56,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 24.42,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.31,
+          "tmp_kpa": 31.35,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 54,
+      "iso_timestamp": "2026-09-22T06:00:00Z",
+      "plant_feed_flow_m3_h": 347.71,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8050.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.82,
+          "tmp_kpa": 19.75,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.46,
+          "tmp_kpa": 24.15,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 115.42,
+          "tmp_kpa": 31.4,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 55,
+      "iso_timestamp": "2026-09-22T07:00:00Z",
+      "plant_feed_flow_m3_h": 343.36,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8050.6,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.29,
+          "tmp_kpa": 19.72,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.01,
+          "tmp_kpa": 24.5,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.06,
+          "tmp_kpa": 31.31,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 56,
+      "iso_timestamp": "2026-09-22T08:00:00Z",
+      "plant_feed_flow_m3_h": 342.59,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8052.3,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 19.6,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.03,
+          "tmp_kpa": 24.35,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.31,
+          "tmp_kpa": 31.43,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 57,
+      "iso_timestamp": "2026-09-22T09:00:00Z",
+      "plant_feed_flow_m3_h": 346.84,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8055.1,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.25,
+          "tmp_kpa": 19.82,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.13,
+          "tmp_kpa": 24.69,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 115.45,
+          "tmp_kpa": 31.43,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 58,
+      "iso_timestamp": "2026-09-22T10:00:00Z",
+      "plant_feed_flow_m3_h": 344.64,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8059.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.74,
+          "tmp_kpa": 19.71,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.84,
+          "tmp_kpa": 24.58,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.06,
+          "tmp_kpa": 31.36,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 59,
+      "iso_timestamp": "2026-09-22T11:00:00Z",
+      "plant_feed_flow_m3_h": 344.79,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8064.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.44,
+          "tmp_kpa": 19.73,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 24.48,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 0.0,
+          "tmp_kpa": 0.0,
+          "status": "OFFLINE_MAINTENANCE"
+        },
+        "D": {
+          "flow_m3_h": 114.37,
+          "tmp_kpa": 31.69,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 60,
+      "iso_timestamp": "2026-09-22T12:00:00Z",
+      "plant_feed_flow_m3_h": 464.24,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8070.1,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.8,
+          "tmp_kpa": 19.74,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.45,
+          "tmp_kpa": 24.84,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.7,
+          "tmp_kpa": 23.78,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.3,
+          "tmp_kpa": 31.58,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 61,
+      "iso_timestamp": "2026-09-22T13:00:00Z",
+      "plant_feed_flow_m3_h": 458.76,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8077.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.48,
+          "tmp_kpa": 19.66,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.89,
+          "tmp_kpa": 24.58,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.75,
+          "tmp_kpa": 24.08,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.64,
+          "tmp_kpa": 31.58,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 62,
+      "iso_timestamp": "2026-09-22T14:00:00Z",
+      "plant_feed_flow_m3_h": 462.42,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8085.1,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 19.75,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.4,
+          "tmp_kpa": 25.15,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.02,
+          "tmp_kpa": 23.98,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 31.66,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 63,
+      "iso_timestamp": "2026-09-22T15:00:00Z",
+      "plant_feed_flow_m3_h": 463.0,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8093.9,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 19.96,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.68,
+          "tmp_kpa": 24.81,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.82,
+          "tmp_kpa": 24.05,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.9,
+          "tmp_kpa": 31.98,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 64,
+      "iso_timestamp": "2026-09-22T16:00:00Z",
+      "plant_feed_flow_m3_h": 460.96,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8103.6,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.84,
+          "tmp_kpa": 19.76,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.99,
+          "tmp_kpa": 24.95,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.06,
+          "tmp_kpa": 23.91,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.07,
+          "tmp_kpa": 31.81,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 65,
+      "iso_timestamp": "2026-09-22T17:00:00Z",
+      "plant_feed_flow_m3_h": 458.99,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8114.0,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.96,
+          "tmp_kpa": 19.87,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.79,
+          "tmp_kpa": 25.31,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 23.95,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.49,
+          "tmp_kpa": 32.05,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 66,
+      "iso_timestamp": "2026-09-22T18:00:00Z",
+      "plant_feed_flow_m3_h": 461.89,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8125.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.0,
+          "tmp_kpa": 19.98,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 25.39,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.89,
+          "tmp_kpa": 24.11,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.87,
+          "tmp_kpa": 32.03,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 67,
+      "iso_timestamp": "2026-09-22T19:00:00Z",
+      "plant_feed_flow_m3_h": 462.16,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8136.6,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.98,
+          "tmp_kpa": 20.04,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.18,
+          "tmp_kpa": 25.56,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.67,
+          "tmp_kpa": 24.26,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.33,
+          "tmp_kpa": 31.88,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 68,
+      "iso_timestamp": "2026-09-22T20:00:00Z",
+      "plant_feed_flow_m3_h": 462.27,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8148.7,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.64,
+          "tmp_kpa": 20.0,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.54,
+          "tmp_kpa": 25.16,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.13,
+          "tmp_kpa": 24.42,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 32.13,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 69,
+      "iso_timestamp": "2026-09-22T21:00:00Z",
+      "plant_feed_flow_m3_h": 457.91,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8161.2,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.81,
+          "tmp_kpa": 19.89,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.76,
+          "tmp_kpa": 25.66,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.66,
+          "tmp_kpa": 24.28,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.69,
+          "tmp_kpa": 31.94,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 70,
+      "iso_timestamp": "2026-09-22T22:00:00Z",
+      "plant_feed_flow_m3_h": 463.74,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8174.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 20.08,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.59,
+          "tmp_kpa": 25.61,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 24.28,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 32.21,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 71,
+      "iso_timestamp": "2026-09-22T23:00:00Z",
+      "plant_feed_flow_m3_h": 461.18,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8186.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 20.3,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.76,
+          "tmp_kpa": 25.73,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 24.16,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 32.08,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 72,
+      "iso_timestamp": "2026-09-23T00:00:00Z",
+      "plant_feed_flow_m3_h": 459.64,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8200.0,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.42,
+          "tmp_kpa": 20.27,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 25.66,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.75,
+          "tmp_kpa": 24.39,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.89,
+          "tmp_kpa": 32.25,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 73,
+      "iso_timestamp": "2026-09-23T01:00:00Z",
+      "plant_feed_flow_m3_h": 458.56,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8213.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.46,
+          "tmp_kpa": 20.21,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 26.08,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.32,
+          "tmp_kpa": 24.41,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.02,
+          "tmp_kpa": 32.5,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 74,
+      "iso_timestamp": "2026-09-23T02:00:00Z",
+      "plant_feed_flow_m3_h": 461.47,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8226.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.57,
+          "tmp_kpa": 20.34,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.35,
+          "tmp_kpa": 26.12,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 24.48,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.73,
+          "tmp_kpa": 32.29,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 75,
+      "iso_timestamp": "2026-09-23T03:00:00Z",
+      "plant_feed_flow_m3_h": 462.76,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8238.8,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.71,
+          "tmp_kpa": 20.13,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.38,
+          "tmp_kpa": 25.8,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 24.48,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.57,
+          "tmp_kpa": 32.5,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 76,
+      "iso_timestamp": "2026-09-23T04:00:00Z",
+      "plant_feed_flow_m3_h": 462.66,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8251.3,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.58,
+          "tmp_kpa": 20.16,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 26.01,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 24.73,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.58,
+          "tmp_kpa": 32.66,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 77,
+      "iso_timestamp": "2026-09-23T05:00:00Z",
+      "plant_feed_flow_m3_h": 461.04,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8263.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 20.3,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.44,
+          "tmp_kpa": 26.14,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.28,
+          "tmp_kpa": 24.52,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.14,
+          "tmp_kpa": 32.43,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 78,
+      "iso_timestamp": "2026-09-23T06:00:00Z",
+      "plant_feed_flow_m3_h": 457.28,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8275.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.4,
+          "tmp_kpa": 20.37,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 26.51,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.44,
+          "tmp_kpa": 24.56,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 32.63,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 79,
+      "iso_timestamp": "2026-09-23T07:00:00Z",
+      "plant_feed_flow_m3_h": 457.84,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8286.0,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 20.41,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.11,
+          "tmp_kpa": 26.09,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.91,
+          "tmp_kpa": 24.53,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.6,
+          "tmp_kpa": 32.92,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 80,
+      "iso_timestamp": "2026-09-23T08:00:00Z",
+      "plant_feed_flow_m3_h": 461.17,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8296.4,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.84,
+          "tmp_kpa": 20.48,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.67,
+          "tmp_kpa": 26.5,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.11,
+          "tmp_kpa": 24.7,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 32.66,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 81,
+      "iso_timestamp": "2026-09-23T09:00:00Z",
+      "plant_feed_flow_m3_h": 457.82,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8306.1,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.29,
+          "tmp_kpa": 20.27,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.78,
+          "tmp_kpa": 26.46,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.38,
+          "tmp_kpa": 24.74,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.37,
+          "tmp_kpa": 32.76,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 82,
+      "iso_timestamp": "2026-09-23T10:00:00Z",
+      "plant_feed_flow_m3_h": 458.88,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8314.9,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.55,
+          "tmp_kpa": 20.46,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.65,
+          "tmp_kpa": 26.58,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.27,
+          "tmp_kpa": 24.82,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.41,
+          "tmp_kpa": 33.1,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 83,
+      "iso_timestamp": "2026-09-23T11:00:00Z",
+      "plant_feed_flow_m3_h": 458.59,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8322.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.31,
+          "tmp_kpa": 20.5,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.34,
+          "tmp_kpa": 26.39,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.52,
+          "tmp_kpa": 24.78,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.42,
+          "tmp_kpa": 33.13,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 84,
+      "iso_timestamp": "2026-09-23T12:00:00Z",
+      "plant_feed_flow_m3_h": 460.2,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8329.9,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.8,
+          "tmp_kpa": 20.49,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.85,
+          "tmp_kpa": 26.64,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.56,
+          "tmp_kpa": 24.95,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.0,
+          "tmp_kpa": 33.07,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 85,
+      "iso_timestamp": "2026-09-23T13:00:00Z",
+      "plant_feed_flow_m3_h": 459.89,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.66,
+          "tmp_kpa": 20.66,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.8,
+          "tmp_kpa": 26.91,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 24.8,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.35,
+          "tmp_kpa": 32.93,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 86,
+      "iso_timestamp": "2026-09-23T14:00:00Z",
+      "plant_feed_flow_m3_h": 458.98,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.84,
+          "tmp_kpa": 20.64,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.83,
+          "tmp_kpa": 27.04,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.2,
+          "tmp_kpa": 24.83,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 32.98,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 87,
+      "iso_timestamp": "2026-09-23T15:00:00Z",
+      "plant_feed_flow_m3_h": 460.7,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.94,
+          "tmp_kpa": 20.47,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.85,
+          "tmp_kpa": 26.84,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.5,
+          "tmp_kpa": 25.05,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.41,
+          "tmp_kpa": 33.12,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 88,
+      "iso_timestamp": "2026-09-23T16:00:00Z",
+      "plant_feed_flow_m3_h": 462.17,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 20.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.14,
+          "tmp_kpa": 27.13,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 25.11,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.04,
+          "tmp_kpa": 33.23,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 89,
+      "iso_timestamp": "2026-09-23T17:00:00Z",
+      "plant_feed_flow_m3_h": 461.02,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.66,
+          "tmp_kpa": 20.51,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.32,
+          "tmp_kpa": 26.86,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.91,
+          "tmp_kpa": 24.95,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 33.27,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 90,
+      "iso_timestamp": "2026-09-23T18:00:00Z",
+      "plant_feed_flow_m3_h": 461.13,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8350.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 20.55,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.01,
+          "tmp_kpa": 27.2,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.26,
+          "tmp_kpa": 25.19,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.1,
+          "tmp_kpa": 33.41,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 91,
+      "iso_timestamp": "2026-09-23T19:00:00Z",
+      "plant_feed_flow_m3_h": 460.87,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.3,
+          "tmp_kpa": 20.6,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.83,
+          "tmp_kpa": 27.16,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 25.01,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.14,
+          "tmp_kpa": 33.35,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 92,
+      "iso_timestamp": "2026-09-23T20:00:00Z",
+      "plant_feed_flow_m3_h": 462.67,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.98,
+          "tmp_kpa": 20.63,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.42,
+          "tmp_kpa": 27.25,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.4,
+          "tmp_kpa": 25.01,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.87,
+          "tmp_kpa": 33.43,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 93,
+      "iso_timestamp": "2026-09-23T21:00:00Z",
+      "plant_feed_flow_m3_h": 461.13,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.99,
+          "tmp_kpa": 20.83,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.49,
+          "tmp_kpa": 27.48,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.25,
+          "tmp_kpa": 25.08,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.39,
+          "tmp_kpa": 33.45,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 94,
+      "iso_timestamp": "2026-09-23T22:00:00Z",
+      "plant_feed_flow_m3_h": 463.98,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.91,
+          "tmp_kpa": 20.63,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 27.42,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.74,
+          "tmp_kpa": 25.27,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.2,
+          "tmp_kpa": 33.6,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 95,
+      "iso_timestamp": "2026-09-23T23:00:00Z",
+      "plant_feed_flow_m3_h": 459.51,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.53,
+          "tmp_kpa": 20.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 27.39,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 25.46,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.01,
+          "tmp_kpa": 33.89,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 96,
+      "iso_timestamp": "2026-09-24T00:00:00Z",
+      "plant_feed_flow_m3_h": 463.57,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8329.9,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.87,
+          "tmp_kpa": 20.91,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.48,
+          "tmp_kpa": 27.76,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.08,
+          "tmp_kpa": 25.46,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 33.87,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 97,
+      "iso_timestamp": "2026-09-24T01:00:00Z",
+      "plant_feed_flow_m3_h": 460.13,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8322.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.22,
+          "tmp_kpa": 20.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 27.96,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.31,
+          "tmp_kpa": 25.52,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.99,
+          "tmp_kpa": 33.7,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 98,
+      "iso_timestamp": "2026-09-24T02:00:00Z",
+      "plant_feed_flow_m3_h": 458.73,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8314.9,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.4,
+          "tmp_kpa": 21.04,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 27.56,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.67,
+          "tmp_kpa": 25.26,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.67,
+          "tmp_kpa": 33.74,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 99,
+      "iso_timestamp": "2026-09-24T03:00:00Z",
+      "plant_feed_flow_m3_h": 459.14,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8306.1,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.03,
+          "tmp_kpa": 20.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.73,
+          "tmp_kpa": 28.02,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.08,
+          "tmp_kpa": 25.57,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.29,
+          "tmp_kpa": 34.12,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 100,
+      "iso_timestamp": "2026-09-24T04:00:00Z",
+      "plant_feed_flow_m3_h": 462.41,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8296.4,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.87,
+          "tmp_kpa": 21.18,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 28.01,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.41,
+          "tmp_kpa": 25.72,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.27,
+          "tmp_kpa": 33.93,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 101,
+      "iso_timestamp": "2026-09-24T05:00:00Z",
+      "plant_feed_flow_m3_h": 461.84,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8286.0,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 21.07,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.96,
+          "tmp_kpa": 27.82,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.98,
+          "tmp_kpa": 25.39,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.65,
+          "tmp_kpa": 34.17,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 102,
+      "iso_timestamp": "2026-09-24T06:00:00Z",
+      "plant_feed_flow_m3_h": 463.2,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8275.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.15,
+          "tmp_kpa": 20.97,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.2,
+          "tmp_kpa": 27.92,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 25.79,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.24,
+          "tmp_kpa": 33.93,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 103,
+      "iso_timestamp": "2026-09-24T07:00:00Z",
+      "plant_feed_flow_m3_h": 462.18,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8263.4,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.45,
+          "tmp_kpa": 21.29,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.5,
+          "tmp_kpa": 28.38,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.73,
+          "tmp_kpa": 25.61,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.51,
+          "tmp_kpa": 34.34,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 104,
+      "iso_timestamp": "2026-09-24T08:00:00Z",
+      "plant_feed_flow_m3_h": 459.36,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8251.3,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.09,
+          "tmp_kpa": 21.08,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.55,
+          "tmp_kpa": 28.29,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.37,
+          "tmp_kpa": 25.57,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.35,
+          "tmp_kpa": 34.13,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 105,
+      "iso_timestamp": "2026-09-24T09:00:00Z",
+      "plant_feed_flow_m3_h": 459.61,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8238.8,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.45,
+          "tmp_kpa": 21.01,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 28.56,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.99,
+          "tmp_kpa": 25.79,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.2,
+          "tmp_kpa": 34.31,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 106,
+      "iso_timestamp": "2026-09-24T10:00:00Z",
+      "plant_feed_flow_m3_h": 462.92,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8226.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.05,
+          "tmp_kpa": 21.04,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.66,
+          "tmp_kpa": 28.36,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.83,
+          "tmp_kpa": 25.81,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.38,
+          "tmp_kpa": 34.17,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 107,
+      "iso_timestamp": "2026-09-24T11:00:00Z",
+      "plant_feed_flow_m3_h": 459.41,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8213.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.8,
+          "tmp_kpa": 21.37,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 28.53,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.67,
+          "tmp_kpa": 25.65,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.69,
+          "tmp_kpa": 34.57,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 108,
+      "iso_timestamp": "2026-09-24T12:00:00Z",
+      "plant_feed_flow_m3_h": 460.39,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8200.0,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.49,
+          "tmp_kpa": 21.32,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.57,
+          "tmp_kpa": 28.85,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.88,
+          "tmp_kpa": 25.73,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.45,
+          "tmp_kpa": 34.35,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 109,
+      "iso_timestamp": "2026-09-24T13:00:00Z",
+      "plant_feed_flow_m3_h": 462.92,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8186.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.86,
+          "tmp_kpa": 21.23,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.32,
+          "tmp_kpa": 28.8,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.14,
+          "tmp_kpa": 25.75,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.6,
+          "tmp_kpa": 34.58,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 110,
+      "iso_timestamp": "2026-09-24T14:00:00Z",
+      "plant_feed_flow_m3_h": 460.65,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8174.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.68,
+          "tmp_kpa": 21.32,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.46,
+          "tmp_kpa": 28.9,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.79,
+          "tmp_kpa": 26.08,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 34.48,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 111,
+      "iso_timestamp": "2026-09-24T15:00:00Z",
+      "plant_feed_flow_m3_h": 461.69,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8161.2,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.7,
+          "tmp_kpa": 21.5,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.64,
+          "tmp_kpa": 28.65,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.53,
+          "tmp_kpa": 25.88,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 34.49,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 112,
+      "iso_timestamp": "2026-09-24T16:00:00Z",
+      "plant_feed_flow_m3_h": 462.2,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8148.7,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.87,
+          "tmp_kpa": 21.28,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.64,
+          "tmp_kpa": 29.23,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.72,
+          "tmp_kpa": 26.13,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.97,
+          "tmp_kpa": 34.9,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 113,
+      "iso_timestamp": "2026-09-24T17:00:00Z",
+      "plant_feed_flow_m3_h": 463.06,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8136.6,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.06,
+          "tmp_kpa": 21.45,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.49,
+          "tmp_kpa": 28.77,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.22,
+          "tmp_kpa": 26.22,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.3,
+          "tmp_kpa": 34.95,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 114,
+      "iso_timestamp": "2026-09-24T18:00:00Z",
+      "plant_feed_flow_m3_h": 462.0,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8125.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.41,
+          "tmp_kpa": 21.52,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.29,
+          "tmp_kpa": 29.1,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.26,
+          "tmp_kpa": 26.19,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.03,
+          "tmp_kpa": 34.83,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 115,
+      "iso_timestamp": "2026-09-24T19:00:00Z",
+      "plant_feed_flow_m3_h": 461.11,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8114.0,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.47,
+          "tmp_kpa": 21.27,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.49,
+          "tmp_kpa": 29.19,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.54,
+          "tmp_kpa": 26.04,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.62,
+          "tmp_kpa": 34.85,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 116,
+      "iso_timestamp": "2026-09-24T20:00:00Z",
+      "plant_feed_flow_m3_h": 461.4,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8103.6,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.08,
+          "tmp_kpa": 21.56,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.16,
+          "tmp_kpa": 29.04,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.35,
+          "tmp_kpa": 26.26,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.81,
+          "tmp_kpa": 34.9,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 117,
+      "iso_timestamp": "2026-09-24T21:00:00Z",
+      "plant_feed_flow_m3_h": 458.26,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8093.9,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.36,
+          "tmp_kpa": 21.51,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.09,
+          "tmp_kpa": 29.45,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.24,
+          "tmp_kpa": 26.38,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 34.89,
+          "status": "ONLINE"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 118,
+      "iso_timestamp": "2026-09-24T22:00:00Z",
+      "plant_feed_flow_m3_h": 461.85,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8085.1,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.26,
+          "tmp_kpa": 21.45,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.03,
+          "tmp_kpa": 29.64,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.86,
+          "tmp_kpa": 26.28,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.7,
+          "tmp_kpa": 35.11,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 119,
+      "iso_timestamp": "2026-09-24T23:00:00Z",
+      "plant_feed_flow_m3_h": 458.14,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8077.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.28,
+          "tmp_kpa": 21.76,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.08,
+          "tmp_kpa": 29.68,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.21,
+          "tmp_kpa": 26.42,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.57,
+          "tmp_kpa": 35.24,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 120,
+      "iso_timestamp": "2026-09-25T00:00:00Z",
+      "plant_feed_flow_m3_h": 461.02,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8070.1,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.98,
+          "tmp_kpa": 21.51,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.55,
+          "tmp_kpa": 29.81,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.11,
+          "tmp_kpa": 26.28,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.38,
+          "tmp_kpa": 35.3,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 121,
+      "iso_timestamp": "2026-09-25T01:00:00Z",
+      "plant_feed_flow_m3_h": 459.53,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8064.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.22,
+          "tmp_kpa": 21.82,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 29.38,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.37,
+          "tmp_kpa": 26.33,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.87,
+          "tmp_kpa": 35.29,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 122,
+      "iso_timestamp": "2026-09-25T02:00:00Z",
+      "plant_feed_flow_m3_h": 460.17,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8059.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.37,
+          "tmp_kpa": 21.72,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.65,
+          "tmp_kpa": 29.88,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.75,
+          "tmp_kpa": 26.33,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.39,
+          "tmp_kpa": 35.45,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 123,
+      "iso_timestamp": "2026-09-25T03:00:00Z",
+      "plant_feed_flow_m3_h": 458.64,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8055.1,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.45,
+          "tmp_kpa": 21.63,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.12,
+          "tmp_kpa": 29.9,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 26.56,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.01,
+          "tmp_kpa": 35.41,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 124,
+      "iso_timestamp": "2026-09-25T04:00:00Z",
+      "plant_feed_flow_m3_h": 457.77,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8052.3,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.26,
+          "tmp_kpa": 21.72,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.9,
+          "tmp_kpa": 29.85,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.32,
+          "tmp_kpa": 26.4,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.29,
+          "tmp_kpa": 35.34,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 125,
+      "iso_timestamp": "2026-09-25T05:00:00Z",
+      "plant_feed_flow_m3_h": 463.46,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8050.6,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 21.66,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.24,
+          "tmp_kpa": 29.92,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.19,
+          "tmp_kpa": 26.37,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.32,
+          "tmp_kpa": 35.35,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 126,
+      "iso_timestamp": "2026-09-25T06:00:00Z",
+      "plant_feed_flow_m3_h": 459.41,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8050.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.6,
+          "tmp_kpa": 21.65,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.81,
+          "tmp_kpa": 30.31,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.71,
+          "tmp_kpa": 26.52,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.29,
+          "tmp_kpa": 35.64,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 127,
+      "iso_timestamp": "2026-09-25T07:00:00Z",
+      "plant_feed_flow_m3_h": 462.41,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8050.6,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.29,
+          "tmp_kpa": 21.75,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.67,
+          "tmp_kpa": 30.23,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.95,
+          "tmp_kpa": 26.77,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.51,
+          "tmp_kpa": 35.67,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 128,
+      "iso_timestamp": "2026-09-25T08:00:00Z",
+      "plant_feed_flow_m3_h": 459.31,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8052.3,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.45,
+          "tmp_kpa": 21.64,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.15,
+          "tmp_kpa": 30.27,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.86,
+          "tmp_kpa": 26.71,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 35.59,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 129,
+      "iso_timestamp": "2026-09-25T09:00:00Z",
+      "plant_feed_flow_m3_h": 462.63,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8055.1,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 21.68,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.57,
+          "tmp_kpa": 30.49,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.54,
+          "tmp_kpa": 26.81,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.5,
+          "tmp_kpa": 35.72,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 130,
+      "iso_timestamp": "2026-09-25T10:00:00Z",
+      "plant_feed_flow_m3_h": 458.15,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8059.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.45,
+          "tmp_kpa": 22.09,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 30.56,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.38,
+          "tmp_kpa": 26.74,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.25,
+          "tmp_kpa": 35.66,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 131,
+      "iso_timestamp": "2026-09-25T11:00:00Z",
+      "plant_feed_flow_m3_h": 460.73,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8064.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.66,
+          "tmp_kpa": 21.96,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.2,
+          "tmp_kpa": 30.2,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.85,
+          "tmp_kpa": 26.84,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.03,
+          "tmp_kpa": 35.81,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 132,
+      "iso_timestamp": "2026-09-25T12:00:00Z",
+      "plant_feed_flow_m3_h": 462.25,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8070.1,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.39,
+          "tmp_kpa": 21.88,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.96,
+          "tmp_kpa": 30.35,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.74,
+          "tmp_kpa": 26.71,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.16,
+          "tmp_kpa": 35.89,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 133,
+      "iso_timestamp": "2026-09-25T13:00:00Z",
+      "plant_feed_flow_m3_h": 459.99,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8077.1,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.08,
+          "tmp_kpa": 21.82,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.37,
+          "tmp_kpa": 30.8,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.61,
+          "tmp_kpa": 26.68,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.92,
+          "tmp_kpa": 36.09,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 134,
+      "iso_timestamp": "2026-09-25T14:00:00Z",
+      "plant_feed_flow_m3_h": 460.28,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8085.1,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 22.1,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.21,
+          "tmp_kpa": 30.72,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.79,
+          "tmp_kpa": 26.85,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.67,
+          "tmp_kpa": 36.08,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 135,
+      "iso_timestamp": "2026-09-25T15:00:00Z",
+      "plant_feed_flow_m3_h": 463.82,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8093.9,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.04,
+          "tmp_kpa": 22.12,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.43,
+          "tmp_kpa": 30.65,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.25,
+          "tmp_kpa": 26.86,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.11,
+          "tmp_kpa": 36.0,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 136,
+      "iso_timestamp": "2026-09-25T16:00:00Z",
+      "plant_feed_flow_m3_h": 459.91,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8103.6,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.23,
+          "tmp_kpa": 21.94,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.72,
+          "tmp_kpa": 31.12,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.84,
+          "tmp_kpa": 26.87,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.13,
+          "tmp_kpa": 36.0,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 137,
+      "iso_timestamp": "2026-09-25T17:00:00Z",
+      "plant_feed_flow_m3_h": 460.68,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8114.0,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.56,
+          "tmp_kpa": 21.93,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 30.82,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.59,
+          "tmp_kpa": 27.2,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.97,
+          "tmp_kpa": 36.2,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 138,
+      "iso_timestamp": "2026-09-25T18:00:00Z",
+      "plant_feed_flow_m3_h": 461.12,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8125.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.48,
+          "tmp_kpa": 22.0,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 31.19,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.04,
+          "tmp_kpa": 27.11,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.78,
+          "tmp_kpa": 36.11,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 139,
+      "iso_timestamp": "2026-09-25T19:00:00Z",
+      "plant_feed_flow_m3_h": 461.42,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8136.6,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.7,
+          "tmp_kpa": 22.04,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.59,
+          "tmp_kpa": 31.03,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 27.11,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.41,
+          "tmp_kpa": 36.2,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 140,
+      "iso_timestamp": "2026-09-25T20:00:00Z",
+      "plant_feed_flow_m3_h": 462.03,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8148.7,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.31,
+          "tmp_kpa": 22.15,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.53,
+          "tmp_kpa": 31.48,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.62,
+          "tmp_kpa": 27.25,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 36.31,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 141,
+      "iso_timestamp": "2026-09-25T21:00:00Z",
+      "plant_feed_flow_m3_h": 458.49,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8161.2,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.35,
+          "tmp_kpa": 22.26,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.03,
+          "tmp_kpa": 30.99,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.39,
+          "tmp_kpa": 27.36,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.72,
+          "tmp_kpa": 36.44,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 142,
+      "iso_timestamp": "2026-09-25T22:00:00Z",
+      "plant_feed_flow_m3_h": 459.19,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8174.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.0,
+          "tmp_kpa": 22.13,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.28,
+          "tmp_kpa": 31.4,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.29,
+          "tmp_kpa": 27.03,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.62,
+          "tmp_kpa": 36.49,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 143,
+      "iso_timestamp": "2026-09-25T23:00:00Z",
+      "plant_feed_flow_m3_h": 460.39,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8186.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.95,
+          "tmp_kpa": 22.48,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.86,
+          "tmp_kpa": 31.64,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.66,
+          "tmp_kpa": 27.25,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.92,
+          "tmp_kpa": 36.55,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 144,
+      "iso_timestamp": "2026-09-26T00:00:00Z",
+      "plant_feed_flow_m3_h": 460.95,
+      "water_temp_c": 16.5,
+      "aeration_basin_mlss_mg_l": 8200.0,
+      "aeration_basin_do_mg_l": 2.4,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.64,
+          "tmp_kpa": 22.42,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.61,
+          "tmp_kpa": 31.37,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.15,
+          "tmp_kpa": 27.35,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.55,
+          "tmp_kpa": 36.47,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 145,
+      "iso_timestamp": "2026-09-26T01:00:00Z",
+      "plant_feed_flow_m3_h": 462.55,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8213.1,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.1,
+          "tmp_kpa": 22.4,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.18,
+          "tmp_kpa": 31.36,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.91,
+          "tmp_kpa": 27.2,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.36,
+          "tmp_kpa": 36.89,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 146,
+      "iso_timestamp": "2026-09-26T02:00:00Z",
+      "plant_feed_flow_m3_h": 459.77,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8226.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 22.32,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.47,
+          "tmp_kpa": 31.43,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.42,
+          "tmp_kpa": 27.46,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 36.78,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 147,
+      "iso_timestamp": "2026-09-26T03:00:00Z",
+      "plant_feed_flow_m3_h": 458.9,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8238.8,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.77,
+          "tmp_kpa": 22.48,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.89,
+          "tmp_kpa": 31.5,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.72,
+          "tmp_kpa": 27.41,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.52,
+          "tmp_kpa": 36.89,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 148,
+      "iso_timestamp": "2026-09-26T04:00:00Z",
+      "plant_feed_flow_m3_h": 461.58,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8251.3,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 22.36,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.21,
+          "tmp_kpa": 32.05,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.23,
+          "tmp_kpa": 27.58,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 36.75,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 149,
+      "iso_timestamp": "2026-09-26T05:00:00Z",
+      "plant_feed_flow_m3_h": 461.88,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8263.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.92,
+          "tmp_kpa": 22.32,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.15,
+          "tmp_kpa": 32.08,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.96,
+          "tmp_kpa": 27.57,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.84,
+          "tmp_kpa": 36.86,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 150,
+      "iso_timestamp": "2026-09-26T06:00:00Z",
+      "plant_feed_flow_m3_h": 459.4,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8275.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.99,
+          "tmp_kpa": 22.63,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.86,
+          "tmp_kpa": 31.77,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.79,
+          "tmp_kpa": 27.36,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.76,
+          "tmp_kpa": 36.9,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 151,
+      "iso_timestamp": "2026-09-26T07:00:00Z",
+      "plant_feed_flow_m3_h": 461.63,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8286.0,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.9,
+          "tmp_kpa": 22.38,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.56,
+          "tmp_kpa": 31.84,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.85,
+          "tmp_kpa": 27.72,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.32,
+          "tmp_kpa": 37.05,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 152,
+      "iso_timestamp": "2026-09-26T08:00:00Z",
+      "plant_feed_flow_m3_h": 460.42,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8296.4,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.64,
+          "tmp_kpa": 22.74,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 32.19,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 27.44,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.07,
+          "tmp_kpa": 36.96,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 153,
+      "iso_timestamp": "2026-09-26T09:00:00Z",
+      "plant_feed_flow_m3_h": 461.58,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8306.1,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 22.71,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.02,
+          "tmp_kpa": 32.0,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 27.56,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.39,
+          "tmp_kpa": 37.32,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 154,
+      "iso_timestamp": "2026-09-26T10:00:00Z",
+      "plant_feed_flow_m3_h": 458.48,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8314.9,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.46,
+          "tmp_kpa": 22.49,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 113.81,
+          "tmp_kpa": 32.11,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.98,
+          "tmp_kpa": 27.54,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.24,
+          "tmp_kpa": 37.15,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 155,
+      "iso_timestamp": "2026-09-26T11:00:00Z",
+      "plant_feed_flow_m3_h": 462.18,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8322.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.54,
+          "tmp_kpa": 22.74,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.63,
+          "tmp_kpa": 32.48,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.61,
+          "tmp_kpa": 27.58,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 116.4,
+          "tmp_kpa": 37.44,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 156,
+      "iso_timestamp": "2026-09-26T12:00:00Z",
+      "plant_feed_flow_m3_h": 462.03,
+      "water_temp_c": 20.5,
+      "aeration_basin_mlss_mg_l": 8329.9,
+      "aeration_basin_do_mg_l": 1.8,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.18,
+          "tmp_kpa": 22.75,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.58,
+          "tmp_kpa": 32.6,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.43,
+          "tmp_kpa": 27.79,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.85,
+          "tmp_kpa": 37.34,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 157,
+      "iso_timestamp": "2026-09-26T13:00:00Z",
+      "plant_feed_flow_m3_h": 461.92,
+      "water_temp_c": 20.43,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 1.81,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.05,
+          "tmp_kpa": 22.77,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.73,
+          "tmp_kpa": 32.28,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.83,
+          "tmp_kpa": 27.86,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.31,
+          "tmp_kpa": 37.59,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 158,
+      "iso_timestamp": "2026-09-26T14:00:00Z",
+      "plant_feed_flow_m3_h": 459.71,
+      "water_temp_c": 20.23,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 1.84,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.12,
+          "tmp_kpa": 22.66,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.33,
+          "tmp_kpa": 32.52,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.37,
+          "tmp_kpa": 27.85,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.89,
+          "tmp_kpa": 37.51,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 159,
+      "iso_timestamp": "2026-09-26T15:00:00Z",
+      "plant_feed_flow_m3_h": 463.56,
+      "water_temp_c": 19.91,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 1.89,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.81,
+          "tmp_kpa": 22.93,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.66,
+          "tmp_kpa": 32.58,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.94,
+          "tmp_kpa": 27.79,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.15,
+          "tmp_kpa": 37.37,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 160,
+      "iso_timestamp": "2026-09-26T16:00:00Z",
+      "plant_feed_flow_m3_h": 461.34,
+      "water_temp_c": 19.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 1.95,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.56,
+          "tmp_kpa": 22.86,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.89,
+          "tmp_kpa": 33.02,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.48,
+          "tmp_kpa": 27.75,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.4,
+          "tmp_kpa": 37.61,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 161,
+      "iso_timestamp": "2026-09-26T17:00:00Z",
+      "plant_feed_flow_m3_h": 459.21,
+      "water_temp_c": 19.02,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.02,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.72,
+          "tmp_kpa": 22.77,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.88,
+          "tmp_kpa": 33.01,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.16,
+          "tmp_kpa": 27.88,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.45,
+          "tmp_kpa": 37.48,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 162,
+      "iso_timestamp": "2026-09-26T18:00:00Z",
+      "plant_feed_flow_m3_h": 461.16,
+      "water_temp_c": 18.5,
+      "aeration_basin_mlss_mg_l": 8350.0,
+      "aeration_basin_do_mg_l": 2.1,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.39,
+          "tmp_kpa": 22.75,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.95,
+          "tmp_kpa": 32.77,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.44,
+          "tmp_kpa": 28.17,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.39,
+          "tmp_kpa": 37.71,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 163,
+      "iso_timestamp": "2026-09-26T19:00:00Z",
+      "plant_feed_flow_m3_h": 460.68,
+      "water_temp_c": 17.98,
+      "aeration_basin_mlss_mg_l": 8349.4,
+      "aeration_basin_do_mg_l": 2.18,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.58,
+          "tmp_kpa": 22.83,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.73,
+          "tmp_kpa": 33.12,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.31,
+          "tmp_kpa": 28.15,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.05,
+          "tmp_kpa": 37.92,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 164,
+      "iso_timestamp": "2026-09-26T20:00:00Z",
+      "plant_feed_flow_m3_h": 462.83,
+      "water_temp_c": 17.5,
+      "aeration_basin_mlss_mg_l": 8347.7,
+      "aeration_basin_do_mg_l": 2.25,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.06,
+          "tmp_kpa": 22.8,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.88,
+          "tmp_kpa": 33.07,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 116.15,
+          "tmp_kpa": 27.9,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 114.74,
+          "tmp_kpa": 37.87,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 165,
+      "iso_timestamp": "2026-09-26T21:00:00Z",
+      "plant_feed_flow_m3_h": 460.19,
+      "water_temp_c": 17.09,
+      "aeration_basin_mlss_mg_l": 8344.9,
+      "aeration_basin_do_mg_l": 2.31,
+      "trains": {
+        "A": {
+          "flow_m3_h": 116.01,
+          "tmp_kpa": 22.84,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 114.13,
+          "tmp_kpa": 33.4,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 114.93,
+          "tmp_kpa": 27.92,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.13,
+          "tmp_kpa": 37.98,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 166,
+      "iso_timestamp": "2026-09-26T22:00:00Z",
+      "plant_feed_flow_m3_h": 463.63,
+      "water_temp_c": 16.77,
+      "aeration_basin_mlss_mg_l": 8341.0,
+      "aeration_basin_do_mg_l": 2.36,
+      "trains": {
+        "A": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 23.06,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 116.45,
+          "tmp_kpa": 33.38,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.61,
+          "tmp_kpa": 28.35,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.96,
+          "tmp_kpa": 37.84,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    },
+    {
+      "timestamp_hour": 167,
+      "iso_timestamp": "2026-09-26T23:00:00Z",
+      "plant_feed_flow_m3_h": 460.56,
+      "water_temp_c": 16.57,
+      "aeration_basin_mlss_mg_l": 8335.9,
+      "aeration_basin_do_mg_l": 2.39,
+      "trains": {
+        "A": {
+          "flow_m3_h": 114.32,
+          "tmp_kpa": 23.1,
+          "status": "ONLINE"
+        },
+        "B": {
+          "flow_m3_h": 115.28,
+          "tmp_kpa": 33.34,
+          "status": "ONLINE"
+        },
+        "C": {
+          "flow_m3_h": 115.88,
+          "tmp_kpa": 28.06,
+          "status": "ONLINE"
+        },
+        "D": {
+          "flow_m3_h": 115.08,
+          "tmp_kpa": 37.88,
+          "status": "HIGH_TMP_WARNING"
+        }
+      }
+    }
+  ]
+}

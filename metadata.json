@@ -1,0 +1,6 @@
+{
+  "name": "UNIT 77 MBR Super Expert",
+  "description": "Excel + Python Hybrid Physics + AI Digital Twin & Predictive Decision Support System for MBR Unit 77, created by Turgunjon Ruziboyev.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

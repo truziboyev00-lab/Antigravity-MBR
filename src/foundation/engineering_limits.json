@@ -1,0 +1,138 @@
+{
+  "system": "UNIT 77 MBR",
+  "version": "1.0",
+  "limits": [
+    {
+      "parameterId": "TRANSMEMBRANE_PRESSURE",
+      "unit": "kPa",
+      "lowCritical": 0.0,
+      "lowWarning": 3.0,
+      "lowNormal": 5.0,
+      "highNormal": 30.0,
+      "highWarning": 45.0,
+      "highCritical": 60.0,
+      "emergencyTrip": 70.0,
+      "notes": "TMP > 45 kPa triggers high fouling alarm; > 60 kPa requires emergency backpulse/relaxation"
+    },
+    {
+      "parameterId": "FLUX_INSTANTANEOUS",
+      "unit": "LMH",
+      "lowCritical": 0.0,
+      "lowWarning": 10.0,
+      "lowNormal": 18.0,
+      "highNormal": 28.0,
+      "highWarning": 32.0,
+      "highCritical": 38.0,
+      "emergencyTrip": 45.0,
+      "notes": "Flux > 32 LMH exceeds sustainable critical flux J_crit under standard MLSS"
+    },
+    {
+      "parameterId": "PERMEABILITY_NORMALIZED_20C",
+      "unit": "LMH/bar",
+      "lowCritical": 60.0,
+      "lowWarning": 100.0,
+      "lowNormal": 150.0,
+      "highNormal": 350.0,
+      "highWarning": 450.0,
+      "highCritical": 500.0,
+      "emergencyTrip": 50.0,
+      "notes": "Lp_20 < 100 LMH/bar requires Maintenance Clean (MC); < 60 LMH/bar requires Recovery CIP"
+    },
+    {
+      "parameterId": "MLSS_MEMBRANE_TANK",
+      "unit": "mg/L",
+      "lowCritical": 3000.0,
+      "lowWarning": 5500.0,
+      "lowNormal": 8000.0,
+      "highNormal": 12000.0,
+      "highWarning": 14000.0,
+      "highCritical": 16000.0,
+      "emergencyTrip": 18000.0,
+      "notes": "MLSS > 14,000 mg/L increases apparent viscosity exponentially, causing rapid cake deposition"
+    },
+    {
+      "parameterId": "DO_MEMBRANE_TANK",
+      "unit": "mg/L",
+      "lowCritical": 0.5,
+      "lowWarning": 1.5,
+      "lowNormal": 2.5,
+      "highNormal": 6.5,
+      "highWarning": 7.5,
+      "highCritical": 8.5,
+      "emergencyTrip": 0.2,
+      "notes": "Low DO in membrane tank indicates air scour blower delivery failure or distribution blockage"
+    },
+    {
+      "parameterId": "DO_AERATION_TANK",
+      "unit": "mg/L",
+      "lowCritical": 0.5,
+      "lowWarning": 1.2,
+      "lowNormal": 2.0,
+      "highNormal": 3.5,
+      "highWarning": 5.0,
+      "highCritical": 6.5,
+      "emergencyTrip": 0.2,
+      "notes": "Nitrification collapses if DO < 1.5 mg/L"
+    },
+    {
+      "parameterId": "WATER_TEMPERATURE",
+      "unit": "°C",
+      "lowCritical": 8.0,
+      "lowWarning": 12.0,
+      "lowNormal": 18.0,
+      "highNormal": 30.0,
+      "highWarning": 35.0,
+      "highCritical": 40.0,
+      "emergencyTrip": 45.0,
+      "notes": "Low temperature increases liquid viscosity (1.5x at 10°C vs 20°C), elevating TMP dramatically"
+    },
+    {
+      "parameterId": "AIR_SCOUR_FLOW_TRAIN",
+      "unit": "Nm3/h",
+      "lowCritical": 400.0,
+      "lowWarning": 700.0,
+      "lowNormal": 1000.0,
+      "highNormal": 1800.0,
+      "highWarning": 2100.0,
+      "highCritical": 2400.0,
+      "emergencyTrip": 300.0,
+      "notes": "Air scour below 700 Nm3/h fails to maintain shear on fibers, resulting in severe cake fouling"
+    },
+    {
+      "parameterId": "CALCULATED_SRT",
+      "unit": "d",
+      "lowCritical": 8.0,
+      "lowWarning": 12.0,
+      "lowNormal": 15.0,
+      "highNormal": 25.0,
+      "highWarning": 32.0,
+      "highCritical": 40.0,
+      "emergencyTrip": 6.0,
+      "notes": "SRT < 12 d causes incomplete nitrification and excessive EPS pin-floc release; SRT > 35 d causes inorganic ash accumulation"
+    },
+    {
+      "parameterId": "TURBIDITY_PERMEATE",
+      "unit": "NTU",
+      "lowCritical": 0.0,
+      "lowWarning": 0.01,
+      "lowNormal": 0.05,
+      "highNormal": 0.20,
+      "highWarning": 0.40,
+      "highCritical": 1.0,
+      "emergencyTrip": 2.0,
+      "notes": "Turbidity > 0.4 NTU indicates breached hollow fiber or header O-ring seal leak"
+    },
+    {
+      "parameterId": "TMP_RATE_OF_CHANGE",
+      "unit": "kPa/h",
+      "lowCritical": -5.0,
+      "lowWarning": -2.0,
+      "lowNormal": 0.0,
+      "highNormal": 0.3,
+      "highWarning": 0.8,
+      "highCritical": 2.5,
+      "emergencyTrip": 5.0,
+      "notes": "Rate of change > 0.8 kPa/h signifies rapid fouling event (viscous bulking or aeration loss)"
+    }
+  ]
+}

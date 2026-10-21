@@ -1,0 +1,443 @@
+{
+  "total_train_ad_hits": 218,
+  "train_ad_hits_sample": [
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 921,
+      "matched": "Train A",
+      "snippet": "(\"PT-771A Train A Suction\", 18.6, 1440, 0, 0),"
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 922,
+      "matched": "Train B",
+      "snippet": "(\"PT-771B Train B Suction\", 19.8, 1440, 1, 0),"
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 923,
+      "matched": "Train C",
+      "snippet": "(\"PT-771C Train C Suction\", 27.5, 1440, 8, 0),"
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 924,
+      "matched": "Train D",
+      "snippet": "(\"PT-771D Train D Suction\", 18.2, 1440, 0, 0),"
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 964,
+      "matched": "Train C",
+      "snippet": "# Current sample under evaluation (Train C: High-Foul State)"
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 981,
+      "matched": "Train A",
+      "snippet": "# Train A (Nominal) vs Train C (Elevated)"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 63,
+      "matched": "Train A",
+      "snippet": "\"name\": \"Train A (Primary)\","
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 72,
+      "matched": "Train B",
+      "snippet": "\"name\": \"Train B (Secondary)\","
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 81,
+      "matched": "Train C",
+      "snippet": "\"name\": \"Train C (High-Foul Stress)\","
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 90,
+      "matched": "Train D",
+      "snippet": "\"name\": \"Train D (Standby/Backup)\","
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 142,
+      "matched": "Train A",
+      "snippet": "# 1. Train A Gross Flux (LMH)"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 149,
+      "matched": "Train A",
+      "snippet": "metric_name=\"Train A Gross Flux\","
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 457,
+      "matched": "Train A",
+      "snippet": "{\"sensor_tag\": \"PT-771A Train A Suction\", \"good_samples\": 1440, \"outliers\": 0, \"flatlines\": 0, \"qual"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 458,
+      "matched": "Train B",
+      "snippet": "{\"sensor_tag\": \"PT-771B Train B Suction\", \"good_samples\": 1440, \"outliers\": 0, \"flatlines\": 0, \"qual"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 459,
+      "matched": "Train C",
+      "snippet": "{\"sensor_tag\": \"PT-771C Train C Suction\", \"good_samples\": 1440, \"outliers\": 0, \"flatlines\": 0, \"qual"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 460,
+      "matched": "Train D",
+      "snippet": "{\"sensor_tag\": \"PT-771D Train D Suction\", \"good_samples\": 1440, \"outliers\": 0, \"flatlines\": 0, \"qual"
+    },
+    {
+      "file": "python/mbr_engine/stress_testing.py",
+      "line": 454,
+      "matched": "Train C",
+      "snippet": "description=\"Control valve stuck; Train C receives 40% of total plant flow.\","
+    },
+    {
+      "file": "python/mbr_engine/stress_testing.py",
+      "line": 456,
+      "matched": "Train C",
+      "snippet": "expected_behavior=\"Detects hydraulic imbalance; flags Train C flow bias\","
+    },
+    {
+      "file": "python/mbr_engine/stress_testing.py",
+      "line": 457,
+      "matched": "Train C",
+      "snippet": "actual_behavior=f\"Train C flux = {max_skew:.1f} LMH (2.0x peer average)\","
+    },
+    {
+      "file": "python/mbr_engine/super_expert.py",
+      "line": 446,
+      "matched": "Train C",
+      "snippet": "\"hypothesis\": \"Non-Linear Cake Layer Compaction & Irreversible Fouling (Train C)\","
+    }
+  ],
+  "total_area_hits": 57,
+  "area_hits_sample": [
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 27,
+      "matched": "4800.0",
+      "snippet": "\"MEMBRANE_AREA_PER_TRAIN_M2\": 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 28,
+      "matched": "19200.0",
+      "snippet": "\"TOTAL_MEMBRANE_AREA_M2\": 19200.0,"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 64,
+      "matched": "4800.0",
+      "snippet": "\"area_m2\": 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 73,
+      "matched": "4800.0",
+      "snippet": "\"area_m2\": 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 82,
+      "matched": "4800.0",
+      "snippet": "\"area_m2\": 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/config.py",
+      "line": 91,
+      "matched": "4800.0",
+      "snippet": "\"area_m2\": 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 143,
+      "matched": "4800",
+      "snippet": "# Excel: =C5*1000/C6 (115.2 * 1000 / 4800 = 24.00)"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 144,
+      "matched": "4800.0",
+      "snippet": "xl_flux = (flow_a * 1000.0) / 4800.0"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 225,
+      "matched": "4800",
+      "snippet": "# Excel: =C2*1000 / (C3 * 4800)"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 226,
+      "matched": "4800.0",
+      "snippet": "xl_out_flux = round((tot_flow * 1000.0) / (3 * 4800.0), 2)"
+    },
+    {
+      "file": "python/mbr_engine/hydraulics.py",
+      "line": 190,
+      "matched": "4800.0",
+      "snippet": "area_m2: float = 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/stress_testing.py",
+      "line": 76,
+      "matched": "4800.0",
+      "snippet": "self.area_train = PLANT_CONFIG.get(\"MEMBRANE_AREA_PER_TRAIN_M2\", 4800.0)"
+    },
+    {
+      "file": "python/mbr_engine/super_expert.py",
+      "line": 493,
+      "matched": "4800.0",
+      "snippet": "outage_res = simulate_train_outage(q_inf, active_trains=3, train_area_m2=4800.0, total_trains=4)"
+    },
+    {
+      "file": "python/mbr_engine/super_expert.py",
+      "line": 499,
+      "matched": "4800.0",
+      "snippet": "train_area_m2=4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/whatif.py",
+      "line": 18,
+      "matched": "4800.0",
+      "snippet": "train_area_m2: float = 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/whatif.py",
+      "line": 77,
+      "matched": "4800.0",
+      "snippet": "train_area_m2: float = 4800.0,"
+    },
+    {
+      "file": "python/mbr_engine/whatif.py",
+      "line": 173,
+      "matched": "4800.0",
+      "snippet": "active_area = active_trains * 4800.0"
+    },
+    {
+      "file": "python/mbr_engine/workbook_bridge.py",
+      "line": 211,
+      "matched": "4800",
+      "snippet": "# 1. Gross Flux (Train A: 115.2 m3/h / 4800 m2 = 24.00 LMH)"
+    },
+    {
+      "file": "python/mbr_engine/workbook_bridge.py",
+      "line": 212,
+      "matched": "4800.0",
+      "snippet": "py_flux = (115.2 * 1000.0) / 4800.0"
+    },
+    {
+      "file": "python/verify_stage11.py",
+      "line": 169,
+      "matched": "4800.0",
+      "snippet": "zero_flux = mbr.calculate_gross_flux(0.0, 4800.0)"
+    }
+  ],
+  "total_four_trains_hits": 10,
+  "four_trains_hits": [
+    {
+      "file": "python/mbr_engine/super_expert.py",
+      "line": 493,
+      "matched": "active_trains=3",
+      "snippet": "outage_res = simulate_train_outage(q_inf, active_trains=3, train_area_m2=4800.0, total_trains=4)"
+    },
+    {
+      "file": "python/mbr_engine/super_expert.py",
+      "line": 498,
+      "matched": "active_trains=3",
+      "snippet": "active_trains=3,"
+    },
+    {
+      "file": "python/mbr_engine/workbook_bridge.py",
+      "line": 159,
+      "matched": "active_trains=3",
+      "snippet": "outage = simulate_train_outage(DEFAULT_TELEMETRY[\"total_flow_m3_h\"], active_trains=3)"
+    },
+    {
+      "file": "python/mbr_engine/workbook_bridge.py",
+      "line": 160,
+      "matched": "active_trains=3",
+      "snippet": "bottleneck = solve_sustainable_plant_flow(active_trains=3)"
+    },
+    {
+      "file": "python/verify_stage5.py",
+      "line": 53,
+      "matched": "active_trains = 3",
+      "snippet": "active_trains = 3"
+    },
+    {
+      "file": "python/verify_stage7.py",
+      "line": 367,
+      "matched": "4 trains",
+      "snippet": "\"details\": f\"Generated schema-compliant payload with 4 trains, biological state, alarms, whatif, pre"
+    },
+    {
+      "file": "src/components/SuperExpertView.tsx",
+      "line": 157,
+      "matched": "4 trains",
+      "snippet": "{ id: 'NOMINAL', label: '1. Nominal Baseline', desc: 'All 4 trains balanced @ 18.5 kPa' },"
+    },
+    {
+      "file": "src/engineering/stage5Benchmark.ts",
+      "line": 152,
+      "matched": "4 trains",
+      "snippet": "// Test at 8.0\u00b0C with all 4 trains online"
+    },
+    {
+      "file": "src/engineering/stage7Benchmark.ts",
+      "line": 301,
+      "matched": "4 trains",
+      "snippet": "actual: 'Valid schema with 4 trains, biological, alarms, whatif, prediction',"
+    },
+    {
+      "file": "src/engineering/whatIfEngine.ts",
+      "line": 329,
+      "matched": "4 trains",
+      "snippet": "description: 'All 4 trains in service, design 24 LMH flux at 18.5\u00b0C with nominal WAS rate (38 m\u00b3/d)."
+    }
+  ],
+  "total_vol_hits": 51,
+  "excel_audit": {
+    "sheet_count": 19,
+    "sheet_names": [
+      "01_Dashboard",
+      "02_Manual_Input",
+      "03_Data_Staging",
+      "04_Train_Analysis",
+      "05_Engineering_Calcs",
+      "06_TMP_Permeability",
+      "07_Biology",
+      "08_WAS_SRT",
+      "09_Cleaning",
+      "10_Equipment",
+      "11_Events_Alarms",
+      "12_Peer_Comparison",
+      "13_What_If",
+      "14_Prediction",
+      "15_Python_Output",
+      "16_Data_Quality",
+      "17_Settings",
+      "18_Engineering_Reference",
+      "19_Audit_Log"
+    ],
+    "total_formulas": 309,
+    "formula_errors": [],
+    "train_ad_in_sheets": []
+  },
+  "version_hits": [
+    {
+      "file": "package.json",
+      "line": 4,
+      "matched": "0.0.0",
+      "snippet": "\"version\": \"0.0.0\","
+    },
+    {
+      "file": "python/mbr_engine/__init__.py",
+      "line": 6,
+      "matched": "1.0.0",
+      "snippet": "Version: 1.0.0"
+    },
+    {
+      "file": "python/mbr_engine/__init__.py",
+      "line": 10,
+      "matched": "1.0.0",
+      "snippet": "__version__ = \"1.0.0\""
+    },
+    {
+      "file": "python/mbr_engine/analytics.py",
+      "line": 1004,
+      "matched": "v1.0.0",
+      "snippet": "\"Model Engine Version\": (\"v1.0.0-PhysicsHybrid\", 1.0, \"VALIDATED\"),"
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 39,
+      "matched": "0.9.0",
+      "snippet": "engine_version: str = \"0.9.0\""
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 445,
+      "matched": "v0.9.0",
+      "snippet": "\"Model Engine Version\": \"v0.9.0-ExcelFallback\","
+    },
+    {
+      "file": "python/mbr_engine/hybrid_bridge.py",
+      "line": 526,
+      "matched": "0.9.0",
+      "snippet": "engine_version=\"0.9.0\","
+    },
+    {
+      "file": "python/mbr_engine/workbook_bridge.py",
+      "line": 178,
+      "matched": "0.8.0",
+      "snippet": "\"engine_version\": \"0.8.0\","
+    },
+    {
+      "file": "python/verify_stage12c.py",
+      "line": 8,
+      "matched": "v0.12.0",
+      "snippet": "Version: v0.12.0-stage12c"
+    },
+    {
+      "file": "python/verify_stage12c.py",
+      "line": 289,
+      "matched": "v0.9.0",
+      "snippet": "\"model_version\": \"v0.9.0\","
+    },
+    {
+      "file": "python/verify_stage12c.py",
+      "line": 297,
+      "matched": "v0.12.0",
+      "snippet": "version_mismatch = (stale_payload[\"model_version\"] != \"v0.12.0\")"
+    },
+    {
+      "file": "python/verify_stage12c.py",
+      "line": 302,
+      "matched": "v0.12.0",
+      "snippet": "actual_d = f\"Stale payload (age {age:.1f}s > {ttl_seconds}s TTL, version mismatch {stale_payload['mo"
+    },
+    {
+      "file": "python/verify_stage7.py",
+      "line": 354,
+      "matched": "0.7.0",
+      "snippet": "payload[\"engine_version\"] in [\"0.7.0\", \"0.8.0\"] and"
+    },
+    {
+      "file": "python/verify_stage9.py",
+      "line": 166,
+      "matched": "0.9.0",
+      "snippet": "heartbeat.engine_version == \"0.9.0\" and"
+    },
+    {
+      "file": "src/data/synthetic_telemetry_dataset.json",
+      "line": 4,
+      "matched": "v1.0.0",
+      "snippet": "\"version\": \"v1.0.0\","
+    },
+    {
+      "file": "src/engineering/stage7Benchmark.ts",
+      "line": 7,
+      "matched": "0.7.0",
+      "snippet": "* Version: 0.7.0"
+    },
+    {
+      "file": "src/foundation/settings_structure.json",
+      "line": 3,
+      "matched": "1.0.0",
+      "snippet": "\"settingsVersion\": \"1.0.0\","
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "system": "UNIT 77 MBR",
+  "severityLevels": [
+    "NORMAL",
+    "WATCH",
+    "WARNING",
+    "HIGH",
+    "CRITICAL",
+    "RECOVERY"
+  ],
+  "alarms": [
+    {
+      "alarmCode": "ALM_TMP_HIGH",
+      "parameterId": "TRANSMEMBRANE_PRESSURE",
+      "applicableTrain": "TRAIN",
+      "description": "Transmembrane pressure exceeds safe operating limit (TMP > 45 kPa)",
+      "severity": "HIGH",
+      "threshold": 45.0,
+      "operator": ">",
+      "persistenceSeconds": 120,
+      "deadbandHysteresis": 3.0,
+      "actionRecommendation": "Initiate air scour boost; reduce train flux by 15%; schedule Maintenance Clean (MC)"
+    },
+    {
+      "alarmCode": "ALM_TMP_CRITICAL",
+      "parameterId": "TRANSMEMBRANE_PRESSURE",
+      "applicableTrain": "TRAIN",
+      "description": "Transmembrane pressure exceeds emergency membrane strain threshold (TMP > 60 kPa)",
+      "severity": "CRITICAL",
+      "threshold": 60.0,
+      "operator": ">",
+      "persistenceSeconds": 30,
+      "deadbandHysteresis": 5.0,
+      "actionRecommendation": "Automatic trip of train permeate pump to prevent fiber collapse; switch train to relaxation/cleaning"
+    },
+    {
+      "alarmCode": "ALM_TMP_ROC_HIGH",
+      "parameterId": "TMP_RATE_OF_CHANGE",
+      "applicableTrain": "TRAIN",
+      "description": "Rapid TMP rise detected (dTMP/dt > 1.2 kPa/h)",
+      "severity": "WARNING",
+      "threshold": 1.2,
+      "operator": ">",
+      "persistenceSeconds": 300,
+      "deadbandHysteresis": 0.2,
+      "actionRecommendation": "Check coarse aeration airflow; inspect MLSS viscosity, temperature drop, or extracellular organic shock"
+    },
+    {
+      "alarmCode": "ALM_LP_LOW_WARNING",
+      "parameterId": "PERMEABILITY_NORMALIZED_20C",
+      "applicableTrain": "TRAIN",
+      "description": "Normalized permeability has dropped below economic threshold (Lp_20 < 100 LMH/bar)",
+      "severity": "WARNING",
+      "threshold": 100.0,
+      "operator": "<",
+      "persistenceSeconds": 600,
+      "deadbandHysteresis": 10.0,
+      "actionRecommendation": "Schedule NaOCl chemical maintenance clean to remove pore foulants"
+    },
+    {
+      "alarmCode": "ALM_LP_CRITICAL",
+      "parameterId": "PERMEABILITY_NORMALIZED_20C",
+      "applicableTrain": "TRAIN",
+      "description": "Normalized permeability critically fouled (Lp_20 < 60 LMH/bar)",
+      "severity": "CRITICAL",
+      "threshold": 60.0,
+      "operator": "<",
+      "persistenceSeconds": 300,
+      "deadbandHysteresis": 15.0,
+      "actionRecommendation": "Take train offline for intensive recovery Clean-In-Place (CIP with NaOCl + Citric Acid)"
+    },
+    {
+      "alarmCode": "ALM_AIR_SCOUR_LOW",
+      "parameterId": "AIR_SCOUR_FLOW_TRAIN",
+      "applicableTrain": "TRAIN",
+      "description": "Membrane coarse bubble air scour flow below minimum shear velocity (< 750 Nm3/h)",
+      "severity": "HIGH",
+      "threshold": 750.0,
+      "operator": "<",
+      "persistenceSeconds": 60,
+      "deadbandHysteresis": 50.0,
+      "actionRecommendation": "Check blower discharge valve, blower VFD trip, or diffuser line header check-valve"
+    },
+    {
+      "alarmCode": "ALM_MLSS_HIGH",
+      "parameterId": "MLSS_MEMBRANE_TANK",
+      "applicableTrain": "TRAIN",
+      "description": "Membrane tank MLSS exceeds 14,000 mg/L",
+      "severity": "HIGH",
+      "threshold": 14000.0,
+      "operator": ">",
+      "persistenceSeconds": 1800,
+      "deadbandHysteresis": 500.0,
+      "actionRecommendation": "Increase WAS sludge wasting rate; check RAS recirculation flow from membrane tank"
+    },
+    {
+      "alarmCode": "ALM_DO_AERO_LOW",
+      "parameterId": "DO_AERATION_TANK",
+      "applicableTrain": "PLANT",
+      "description": "Aerobic biological tank DO is dangerously depressed (< 1.2 mg/L)",
+      "severity": "WARNING",
+      "threshold": 1.2,
+      "operator": "<",
+      "persistenceSeconds": 300,
+      "deadbandHysteresis": 0.3,
+      "actionRecommendation": "Increase biological fine bubble blower speed; prevent filamentous bulking and nitrification loss"
+    },
+    {
+      "alarmCode": "ALM_TURBIDITY_BREACH",
+      "parameterId": "TURBIDITY_PERMEATE",
+      "applicableTrain": "TRAIN",
+      "description": "Permeate turbidity spike (> 0.45 NTU)",
+      "severity": "CRITICAL",
+      "threshold": 0.45,
+      "operator": ">",
+      "persistenceSeconds": 30,
+      "deadbandHysteresis": 0.1,
+      "actionRecommendation": "Suspected membrane fiber rupture or header seal leak; isolate train permeate line and conduct pressure decay test (PDT)"
+    },
+    {
+      "alarmCode": "ALM_DQ_FLATLINE",
+      "parameterId": "TRANSMEMBRANE_PRESSURE",
+      "applicableTrain": "TRAIN",
+      "description": "TMP pressure transmitter signal frozen / flatline detected",
+      "severity": "WATCH",
+      "threshold": 0.0,
+      "operator": "STUCK",
+      "persistenceSeconds": 3600,
+      "deadbandHysteresis": 0.0,
+      "actionRecommendation": "Inspect transmitter diaphragm; purge impulse line for sludge blockage"
+    },
+    {
+      "alarmCode": "ALM_CLEAN_RECOVERY_POOR",
+      "parameterId": "CLEANING_PERM_RECOVERY",
+      "applicableTrain": "TRAIN",
+      "description": "Chemical cleaning permeability recovery below target (< 70%)",
+      "severity": "WARNING",
+      "threshold": 70.0,
+      "operator": "<",
+      "persistenceSeconds": 0,
+      "deadbandHysteresis": 5.0,
+      "actionRecommendation": "Inspect cleaning chemical concentration; check pH; switch chemical or consider dual acid-hypochlorite clean"
+    }
+  ]
+}

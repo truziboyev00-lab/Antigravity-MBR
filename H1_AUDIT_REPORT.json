@@ -1,0 +1,235 @@
+{
+  "title": "MBR SUPER EXPERT v1.1 \u2014 STAGE H1 AUDIT & VERIFICATION REPORT",
+  "author": "Turgunjon Ruziboyev",
+  "baseline_version": "v1.0.0",
+  "target_version": "v1.1.0",
+  "checks": [
+    {
+      "id": "H1-01",
+      "name": "v1.0 Baseline Freeze & Checksum Lock",
+      "status": "PASS",
+      "details": "Archive exists: True, SHA-256 match: True (8afaa7c808e9c059...)"
+    },
+    {
+      "id": "H1-02",
+      "name": "Complete Project File Hash Register",
+      "status": "PASS",
+      "details": "BASELINE_V1.0_HASHES.json present with frozen file signatures."
+    },
+    {
+      "id": "H1-03",
+      "name": "Reproduction: Viscosity & TCF Equation Drift (Python vs TypeScript)",
+      "status": "CONFIRMED_DEFECT",
+      "details": "Python uses Poiseuille exponential (1.787*exp(...)), TypeScript uses rational polynomial (1.784/(1+...)). TS uses theta=1.025 for TCF, Python uses viscosity ratio."
+    },
+    {
+      "id": "H1-04",
+      "name": "Reproduction: Workbook Bridge Fake Telemetry & Stubbed Read",
+      "status": "CONFIRMED_DEFECT",
+      "details": "workbook_bridge.py relies on DEFAULT_TELEMETRY dictionary rather than dynamic extraction from openpyxl/OpenXML cells."
+    },
+    {
+      "id": "H1-05",
+      "name": "Reproduction: Fake / Self-Comparison Parity Assertions",
+      "status": "CONFIRMED_DEFECT",
+      "details": "workbook_bridge.py compares Python against hard-coded literals (e.g. xl_out_flux=32.00, xl_comp_tmp=29.267, xl_lin24=26.00) rather than recalculating Excel."
+    },
+    {
+      "id": "H1-06",
+      "name": "Reproduction: Version Metadata Fragmentation",
+      "status": "CONFIRMED_DEFECT",
+      "details": "cli.py reports v0.8.0, workbook_bridge reports 0.8.0, package.json reports 0.0.0, UI reports Stage 10/12D."
+    },
+    {
+      "id": "H1-07",
+      "name": "Reproduction: Clean Membrane Resistance Rm Value Drift",
+      "status": "CONFIRMED_DEFECT",
+      "details": "config.py declares Rm=1.497e12 m^-1, whereas workbook_bridge.py checks xl_rm=1.5076e12 m^-1 (0.71% drift)."
+    },
+    {
+      "id": "H1-08",
+      "name": "Legacy Train Identifiers (Train A-D) Scan",
+      "status": "CONFIRMED_DEFECT",
+      "details": "Found 411 occurrences across 35 source files. Must be migrated to canonical T01-T07."
+    },
+    {
+      "id": "H1-09",
+      "name": "Hardcoded Membrane Area (4,800 / 19,200 m\u00b2) Scan",
+      "status": "CONFIRMED_DEFECT",
+      "details": "Found 121 occurrences across 27 files. Must be dynamic per train."
+    },
+    {
+      "id": "H1-10",
+      "name": "Hardcoded 4-Train Architecture Assumptions",
+      "status": "CONFIRMED_DEFECT",
+      "details": "Found 34 occurrences assuming 4 fixed trains. Must support dynamic 1-7 trains."
+    },
+    {
+      "id": "H1-11",
+      "name": "Excel OpenXML Formulas & Integrity Audit",
+      "status": "PASS",
+      "details": "Sheets: 19, Total formulas: 309, Unresolved syntax errors: 0."
+    }
+  ],
+  "overall_status": "PASS",
+  "defects": [
+    {
+      "id": "DEF-01",
+      "priority": "P0",
+      "title": "Legacy Train A-D and Hardcoded 4-Train Topology",
+      "impact": "Precludes universal multi-plant portability. Fails on plants with 2, 3, 5, 6, or 7 trains.",
+      "components": [
+        "src/foundation/train_structure.json",
+        "python/mbr_engine/config.py",
+        "src/App.tsx",
+        "python/mbr_engine/super_expert.py"
+      ],
+      "resolution": "Migrate all internal structures and UI to canonical T01-T07 with dynamic 1-7 train instantiation."
+    },
+    {
+      "id": "DEF-02",
+      "priority": "P0",
+      "title": "Hardcoded Membrane Area (4800 m\u00b2 per train / 19200 m\u00b2 plant total)",
+      "impact": "Causes dangerous flux errors on plants with different membrane cassette densities or module models.",
+      "components": [
+        "python/mbr_engine/config.py",
+        "python/mbr_engine/whatif.py",
+        "src/engineering/calculations.ts"
+      ],
+      "resolution": "Calculate Active Membrane Area dynamically from online configured trains: \u03a3 Membrane_Area(Txx)."
+    },
+    {
+      "id": "DEF-03",
+      "priority": "P0",
+      "title": "Fake Excel Parity Assertions & Hardcoded Numeric Comparisons",
+      "impact": "Masks mathematical divergence between Excel formulas and Python engine.",
+      "components": [
+        "python/mbr_engine/workbook_bridge.py",
+        "python/mbr_engine/hybrid_bridge.py"
+      ],
+      "resolution": "Implement real three-way execution: recalculate Excel, extract calculated cell values, compare with Python and TypeScript."
+    },
+    {
+      "id": "DEF-04",
+      "priority": "P0",
+      "title": "Stubbed Telemetry Ingestion (read_excel_telemetry uses DEFAULT_TELEMETRY)",
+      "impact": "Offline Excel telemetry cannot actually feed real-time analytical pipeline.",
+      "components": [
+        "python/mbr_engine/workbook_bridge.py"
+      ],
+      "resolution": "Parse live OpenXML/openpyxl cells from input sheets and construct canonical runtime telemetry."
+    },
+    {
+      "id": "DEF-05",
+      "priority": "P0",
+      "title": "Missing Plant Configuration Layer (Single Source of Truth)",
+      "impact": "Plant design values and limits are scattered across python/mbr_engine/config.py, JSON files, and TS benchmarks.",
+      "components": [
+        "src/foundation/*",
+        "python/mbr_engine/config.py"
+      ],
+      "resolution": "Create unified 20_Plant_Configuration schema with parameter provenance, verification status, and limits."
+    },
+    {
+      "id": "DEF-06",
+      "priority": "P0",
+      "title": "Lack of Train Operating Status Filtering in Plant Calculations",
+      "impact": "Offline or maintenance trains contaminate active flux, TMP, and peer calculations.",
+      "components": [
+        "python/mbr_engine/hydraulics.py",
+        "src/engineering/calculations.ts",
+        "src/App.tsx"
+      ],
+      "resolution": "Enforce: Train active only when Installed=TRUE, Operating_Status=ONLINE, and Data_Quality=VALID."
+    },
+    {
+      "id": "DEF-07",
+      "priority": "P1",
+      "title": "Viscosity Model Correlation Disagreement (Exponential vs Polynomial)",
+      "impact": "Small mathematical discrepancy between Python Darcy resistance and TypeScript Darcy resistance.",
+      "components": [
+        "python/mbr_engine/hydraulics.py",
+        "src/engineering/calculations.ts"
+      ],
+      "resolution": "Standardize on single validated Poiseuille/IAPWS model across Excel, Python, and TypeScript."
+    },
+    {
+      "id": "DEF-08",
+      "priority": "P1",
+      "title": "Temperature Correction Factor (TCF) Definition Discrepancy",
+      "impact": "TypeScript uses Arrhenius theta^(20-T) with theta=1.025, while Python uses viscosity ratio mu(20)/mu(T).",
+      "components": [
+        "src/engineering/calculations.ts",
+        "python/mbr_engine/hydraulics.py"
+      ],
+      "resolution": "Standardize TCF to viscosity ratio mu(20)/mu(T) matching Darcy membrane physics."
+    },
+    {
+      "id": "DEF-09",
+      "priority": "P1",
+      "title": "Clean Membrane Resistance Rm Discrepancy (1.497e12 vs 1.5076e12 m^-1)",
+      "impact": "Clean water baseline resistance drift between modules.",
+      "components": [
+        "python/mbr_engine/config.py",
+        "python/mbr_engine/workbook_bridge.py"
+      ],
+      "resolution": "Set Rm from authoritative plant configuration with provenance status OEM_VERIFIED or NOT_CALIBRATED."
+    },
+    {
+      "id": "DEF-10",
+      "priority": "P1",
+      "title": "Scattered and Stale Software Version Metadata",
+      "impact": "Inconsistent telemetry payloads (0.8.0, 0.7.0, 1.0.0, Stage 10) causes telemetry rejection.",
+      "components": [
+        "python/mbr_engine/cli.py",
+        "python/mbr_engine/workbook_bridge.py",
+        "src/App.tsx",
+        "metadata.json"
+      ],
+      "resolution": "Establish single authoritative version constant: v1.1.0."
+    },
+    {
+      "id": "DEF-11",
+      "priority": "P1",
+      "title": "Tag Names Bound Directly to Unit 77 SCADA Conventions",
+      "impact": "Prevents deploying at Uzbekistan GTL or other facilities without recoding tag names.",
+      "components": [
+        "python/mbr_engine/analytics.py",
+        "src/foundation/train_structure.json"
+      ],
+      "resolution": "Implement Tag Mapping layer mapping plant-specific tags to canonical Txx.TMP, Txx.FLOW, etc."
+    },
+    {
+      "id": "DEF-12",
+      "priority": "P2",
+      "title": "Hardcoded 'Unit 77' Strings in UI and Report Templates",
+      "impact": "Cosmetic assumption that the application is only for Unit 77.",
+      "components": [
+        "src/App.tsx",
+        "python/mbr_engine/cli.py"
+      ],
+      "resolution": "Drive plant name dynamically from Plant Configuration."
+    },
+    {
+      "id": "DEF-13",
+      "priority": "P2",
+      "title": "Missing Configuration Completeness Score & Real Plant Mode Validator",
+      "impact": "Operators might run in Real Plant Mode without mandatory parameters configured.",
+      "components": [
+        "src/foundation/plant_config.json",
+        "python/mbr_engine/config.py"
+      ],
+      "resolution": "Implement Configuration Completeness Score (0-100%) and block calculations when required parameters missing."
+    },
+    {
+      "id": "DEF-14",
+      "priority": "P2",
+      "title": "Fixed 4-Train Headers in Excel Sheet Layouts",
+      "impact": "Excel sheet templates display static Train A, B, C, D columns.",
+      "components": [
+        "UNIT_77_MBR_SUPER_EXPERT.xlsx"
+      ],
+      "resolution": "Upgrade sheet templates to dynamic T01-T07 layout driven by Plant Configuration."
+    }
+  ]
+}

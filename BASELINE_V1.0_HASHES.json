@@ -1,0 +1,430 @@
+{
+  "package.json": {
+    "size": 939,
+    "sha256": "c85ae47d8267a6da343ba7f365a03a2b74a5f94052f2ca0a1648f807a716e1cb"
+  },
+  "FINAL_RELEASE_REPORT.md": {
+    "size": 3834,
+    "sha256": "0750ac645546a1f2b4f36537e7b63a6d0d57c869e18897fb1a6ec60108430d8c"
+  },
+  "VALIDATION_STATUS.md": {
+    "size": 30542,
+    "sha256": "0f8ceafae922ca10ff11d477c9ee64b97ac9e476b3d73adc01b2b8a2acb0c17c"
+  },
+  "UNIT_77_MBR_SUPER_EXPERT_V1.0_FINAL_FULL_PROJECT.zip": {
+    "size": 475098,
+    "sha256": "8afaa7c808e9c059b6846e03e0486ce5847ad3f41422c48dad79dcc6cb452d3b"
+  },
+  "CHANGELOG.md": {
+    "size": 11405,
+    "sha256": "c82a23b9646e6fc94e14170d7a71b2b834662dd9a99612468d45be9182a27215"
+  },
+  "PROJECT_FILE_MANIFEST.md": {
+    "size": 5342,
+    "sha256": "07da57934c98774432dce5dace2ce19cf0a5bfef71e4e78315fb44e085f34b68"
+  },
+  "README.md": {
+    "size": 11573,
+    "sha256": "f40bc1e7875e75f69abb4395da722142927802d0078e738895024485ff07fcd6"
+  },
+  "PROJECT_STATE.md": {
+    "size": 14275,
+    "sha256": "2c2d228029d23710ee54e9a8a1c52978ac59b3632f5f0d7b77182dbbf0a74439"
+  },
+  "STAGE_12C_ACCEPTANCE_REPORT.md": {
+    "size": 11280,
+    "sha256": "5fd9ba6b79cba7046b1309333ee4134cd24f9dccc5cf967d8f571cf249015434"
+  },
+  "FINAL_VALIDATION_MATRIX.md": {
+    "size": 5199,
+    "sha256": "0f751e1c155425d1f20e2d205677c225227fc3e22dd564ee0d99e4458a04235a"
+  },
+  "index.html": {
+    "size": 852,
+    "sha256": "9ebf321856f9a17105a98d2d4b6951023607a2947c205a1c05e84555e7e72b19"
+  },
+  "metadata.json": {
+    "size": 296,
+    "sha256": "809a069dabd789a575043bf2f4aef6e8102c1df25dcf464116b06d4c4e3dd27a"
+  },
+  "UNIT_77_MBR_SUPER_EXPERT.xlsx": {
+    "size": 42422,
+    "sha256": "c777a74aa39960ebc47920946952665581acc3317c289cb6d2ab1914001b573c"
+  },
+  "BACKUP_STATUS.md": {
+    "size": 3751,
+    "sha256": "9aacaa89273daac4c653dd94df14dcfb530d89c44bdeed78d2464bcddbdd76f0"
+  },
+  ".env.example": {
+    "size": 445,
+    "sha256": "b6d12c728de0aac8b0bc6239e53aa8088c1431bcb4f9a3d61e5e8a2df1c7c400"
+  },
+  "tsconfig.json": {
+    "size": 538,
+    "sha256": "6624845b5855cb0c547da44d56785371aaf4f77920440f93b685484456952468"
+  },
+  "vite.config.ts": {
+    "size": 708,
+    "sha256": "c7b7cc4b3a6b6a08f0a4fb916bb4d4e41804d5767611bce43d4c1ad53a198192"
+  },
+  ".gitignore": {
+    "size": 73,
+    "sha256": "db691f14fcf678985362a42c6aedb581e42cd6bb99962ce1b44aea460fb2a4df"
+  },
+  "FINAL_BACKUP_MANIFEST.md": {
+    "size": 12911,
+    "sha256": "e1f67e3e28f7d5c0270ab785b03f2bf1d5d7f2bb93a982fc1f59fdf0bd617b10"
+  },
+  "bun.lock": {
+    "size": 100898,
+    "sha256": "86f3148d9b2e2a787705531901f1f4b1307afbbe77d1c4b6cf42600ab877bd9d"
+  },
+  "python/verify_stage6.py": {
+    "size": 7941,
+    "sha256": "df9154c9cade2da0eb408c2c36c33c9db83bdffb0b20882dba8a6080f8f16111"
+  },
+  "python/verify_stage3.py": {
+    "size": 4476,
+    "sha256": "8efcb6fd9d60d07bfb040588e9a1be58d2a9d340ecb2b74f7df24ebda2d44c7f"
+  },
+  "python/verify_stage10.py": {
+    "size": 8061,
+    "sha256": "3f2a2f0bcee77bb6bbf0ed489d5067c8d5eaae6973998bc45356d1252c915776"
+  },
+  "python/verify_stage11.py": {
+    "size": 8579,
+    "sha256": "f6299dbc62c7bc719f1fae95c5c1c36bd497c67802761b2e9f2faf600d2847b3"
+  },
+  "python/verify_stage7.py": {
+    "size": 18213,
+    "sha256": "58bf318b7255c5766adfbde63d2785425ff93fc1ec832d9e89ea05fd80a5c82f"
+  },
+  "python/verify_stage4.py": {
+    "size": 9795,
+    "sha256": "bab0ac6c0323fac60db1e03066c3b70fc095b5294341c6ad914f4ed91906c003"
+  },
+  "python/verify_stage5.py": {
+    "size": 8129,
+    "sha256": "ac044391ed3876624d5e23d45ad37ea13a3ece71658960b0ed2f99018a96b987"
+  },
+  "python/verify_stage12c.py": {
+    "size": 33719,
+    "sha256": "346739c664540fa3efa99c60e3641e86664fe0a5ed1bc67e1acc637cef50d22f"
+  },
+  "python/verify_stage2.py": {
+    "size": 3452,
+    "sha256": "75cb6242f8b4ad0a95825e893e5e418600cd81fa10cc2e30fcf967b4d7cfd1cf"
+  },
+  "python/verify_stage8.py": {
+    "size": 11793,
+    "sha256": "70ed9e573a7009a40ae2fed768e43ed850408c5e97bc2b15bad83e4c88e0ac59"
+  },
+  "python/verify_stage1.py": {
+    "size": 2300,
+    "sha256": "a131ca17b36a47af81de405769443099472d70f8e1cd62a1f4058b6319d9d7fa"
+  },
+  "python/verify_stage9.py": {
+    "size": 9301,
+    "sha256": "a7fe04a3e545bf282a0c8ebe046390447be4132b579dc79210f4c775cde8b835"
+  },
+  "python/mbr_engine/__main__.py": {
+    "size": 119,
+    "sha256": "6dae3d32568ddd020298e99fd6775e0336edf373a2a75684f81b7b2844f9f30c"
+  },
+  "python/mbr_engine/prediction.py": {
+    "size": 6849,
+    "sha256": "fc3b52b57ff6434e65bc55a6a0acc91e17856568371e29eae03912ad623121e9"
+  },
+  "python/mbr_engine/whatif.py": {
+    "size": 7574,
+    "sha256": "a8b139336f2a5bacb5f461389b78a8180b7ca1e9f72cf761db453b04fd05ffdc"
+  },
+  "python/mbr_engine/super_expert.py": {
+    "size": 27575,
+    "sha256": "1ef62ee2ba35427dfd466cfb96c1c0c7d0531c5019f00a30b1d359d8fe390241"
+  },
+  "python/mbr_engine/analytics.py": {
+    "size": 34516,
+    "sha256": "71a3949e0150a3917bbb086e49fa31ae85bb2081f4847118161a318fb6f64bd7"
+  },
+  "python/mbr_engine/__init__.py": {
+    "size": 5649,
+    "sha256": "37cfb4034e1f00f81d6bc22c813ba2e44a5f5260d0f4eadb9d8032a3ce3b9a7d"
+  },
+  "python/mbr_engine/hydraulics.py": {
+    "size": 7327,
+    "sha256": "d63ca5d85cac176fa97c2dff0067038537664b41e2adfb464d83529d9f205cc3"
+  },
+  "python/mbr_engine/config.py": {
+    "size": 3636,
+    "sha256": "62ea20ac34027291f3c34642d68d5875655f5694bb5d2ec1ab8675b1f1b64342"
+  },
+  "python/mbr_engine/calibration.py": {
+    "size": 5099,
+    "sha256": "3b5e17cb11e28bbf35300e3f8d1fc668d8583b5ae3a12da5f8b0bdf4e0d70b8e"
+  },
+  "python/mbr_engine/biological.py": {
+    "size": 6632,
+    "sha256": "26c9e4f6cf17f115d8ea8970a18fbb9062848ee1273b7a5d2ee8674022663435"
+  },
+  "python/mbr_engine/hybrid_bridge.py": {
+    "size": 23622,
+    "sha256": "b9805bbda8eee7789149a5ab74f2e0183c88010860ae94541c9883504758e0f0"
+  },
+  "python/mbr_engine/workbook_bridge.py": {
+    "size": 11388,
+    "sha256": "5be313f2c52631981ae08269c313e37086fb1ece8fe0e3b4255dc18366695bd8"
+  },
+  "python/mbr_engine/alarms.py": {
+    "size": 9908,
+    "sha256": "72740d9d2e25461e33593a4c307082394a2d78369d4b6b5cd064e4bfa376ea49"
+  },
+  "python/mbr_engine/cli.py": {
+    "size": 6360,
+    "sha256": "09c6810e14d476943024752659962c9a7140677fea1e32465ae327a506e91129"
+  },
+  "python/mbr_engine/stress_testing.py": {
+    "size": 31774,
+    "sha256": "39c5ab39e4c9a2651e8942d9eba40115e5c840c853059e4d5bb7e0b827a06f7b"
+  },
+  "src/index.css": {
+    "size": 23,
+    "sha256": "42070e0b45bb201b2b838a52aaaa6e965f964e0b542d97f1fe517fe59c4b75a8"
+  },
+  "src/main.tsx": {
+    "size": 231,
+    "sha256": "5580d48b0fec68698a113d45a640b88d479dc35eb1f4b87c51f67c6cc81cee9b"
+  },
+  "src/App.tsx": {
+    "size": 59939,
+    "sha256": "0c35d289b94dcfc3737658cfc607a6624b72eec183b7736bd643871396238143"
+  },
+  "src/engineering/predictionCalibrationEngine.ts": {
+    "size": 17110,
+    "sha256": "ed143eebfc52b21a5832266725b1c245b4263d0188dc74937f89109e330f2ccd"
+  },
+  "src/engineering/stage10Benchmark.ts": {
+    "size": 13076,
+    "sha256": "f20ebe00d82ccc6f9f5a4aac9e0e9834fdaacdd955459a82317571e49f2d6105"
+  },
+  "src/engineering/calculations.ts": {
+    "size": 14258,
+    "sha256": "e7b4383f49c4349edf96f2fc36ba2e3912f1500aba7ed78815c67854a15a2abb"
+  },
+  "src/engineering/stage9Benchmark.ts": {
+    "size": 16053,
+    "sha256": "ec6159fe996ec85f68cefd33941123306ac7ea57e355e21abe802748f5f39687"
+  },
+  "src/engineering/stage5Benchmark.ts": {
+    "size": 17737,
+    "sha256": "9613cb69484fb9c552560d0538f433b4e3002cb668a6cfd5ac1bdbf1c21126c8"
+  },
+  "src/engineering/whatIfEngine.ts": {
+    "size": 17049,
+    "sha256": "7990450bdf547cca27da3a7559a53f2fd35f94a370ffb4cf7d8ac75db37b738d"
+  },
+  "src/engineering/stage4Benchmark.ts": {
+    "size": 16654,
+    "sha256": "7a431232f77f0d61ca32d4019414fc40a6ac26f125505e04f3d384c6ec3da7ae"
+  },
+  "src/engineering/benchmarkTests.ts": {
+    "size": 27298,
+    "sha256": "a0aa25181d44a3e1461813e6475c4d955c379da85c8bc50241ccfe66f2271f4d"
+  },
+  "src/engineering/stage6Benchmark.ts": {
+    "size": 14228,
+    "sha256": "8b6218dfa5c734fb4fff174a3fe9677d7719959baa04f5b3bb77fcc1ddecc520"
+  },
+  "src/engineering/stage7Benchmark.ts": {
+    "size": 11882,
+    "sha256": "3c7afa3cd9e9a31dac8ac560b72f1b90a831c0407ef2a4e2805a466372fd1bb1"
+  },
+  "src/engineering/diagnosticEngine.ts": {
+    "size": 23760,
+    "sha256": "0b4fa776a81f601ed3948f16c835742460e075fc1a0cb45d60e7c70aeecbe4b7"
+  },
+  "src/foundation/parameter_dictionary.json": {
+    "size": 23811,
+    "sha256": "cfe42af81e9dece78bfb525d6628dacac140ec34c011669a916416b745b79512"
+  },
+  "src/foundation/unit_dictionary.json": {
+    "size": 7133,
+    "sha256": "bf893928dee4890e4304283e4edce9946bde716e6a40ffcbea2ab2f2d210e77b"
+  },
+  "src/foundation/alarm_structure.json": {
+    "size": 5493,
+    "sha256": "04122e506e71d438db67153e4bed8e9331c0b2bc4a89be10a3807d905dfea8a9"
+  },
+  "src/foundation/equipment_structure.json": {
+    "size": 4353,
+    "sha256": "a55502791e4c980227156ec4f590cdadb2cfc72de19d519e45cf6ec9cc440181"
+  },
+  "src/foundation/engineering_limits.json": {
+    "size": 4156,
+    "sha256": "88c19ecbd7bf6c23f6e9dd7fbdf938040c45a390c7a16a96bf12269eac83f65e"
+  },
+  "src/foundation/data_quality_flags.json": {
+    "size": 2926,
+    "sha256": "5953d8d12bea749cd31fc8fefe5a34015e050beda3528aa5ca3aa1179b091000"
+  },
+  "src/foundation/cleaning_event_structure.json": {
+    "size": 2739,
+    "sha256": "5d2ce66453a6e7e0c8620df309c70f65fa022af3e7453f52dbacc964f9af39fa"
+  },
+  "src/foundation/types.ts": {
+    "size": 4182,
+    "sha256": "a8f1d013e96e4a26c29ee349f7541ca0643067fe28852a1b6d78c34e8f5b95d8"
+  },
+  "src/foundation/timestamp_structure.json": {
+    "size": 1468,
+    "sha256": "3a401d9a041a8c6c9460886c0ed6608c9bf49e8e1cac6b4e4236972f60d7b130"
+  },
+  "src/foundation/settings_structure.json": {
+    "size": 1842,
+    "sha256": "764c1f150e983a481c3f750d8121b57c177a56c56b565a44ac7ef4786b4df53f"
+  },
+  "src/foundation/train_structure.json": {
+    "size": 2214,
+    "sha256": "dd18d831fae6cd0ae4d230016c6502d18b3f7b63c9b1d92ae24b9614988edf98"
+  },
+  "src/components/CoreCalculationsBenchmark.tsx": {
+    "size": 25212,
+    "sha256": "ddab450cf071c75b514538b0d9af2872760f135ac2d39fe3bf6b10fe46e767b6"
+  },
+  "src/components/SuperExpertView.tsx": {
+    "size": 37953,
+    "sha256": "10056af3c639ffc0808bd60171e50b9008c0061097b95d4e58dc24f7b9e1e339"
+  },
+  "src/components/WhatIfScenarioEngine.tsx": {
+    "size": 33655,
+    "sha256": "0d62f3c2355a0bc71bdc2fd4443c9a1ea05bcac9828a6e3e7f809e5cc2ec7618"
+  },
+  "src/components/DiagnosticAlarmEngine.tsx": {
+    "size": 36898,
+    "sha256": "eda1971ece7f187615cd2295ba804e724d3d7664629a1db7c6592967d3946ea9"
+  },
+  "src/components/HybridBridgeView.tsx": {
+    "size": 21923,
+    "sha256": "a5a43e4b5df9f120ca6583e072e27938c626b1f30aa85905b3d9d7d3b60130f0"
+  },
+  "src/components/PythonEngineView.tsx": {
+    "size": 34476,
+    "sha256": "e53ef60d7e612a994f6e89240a48d56512fbbf7c2fe5fd6c479dbdefe7cfb663"
+  },
+  "src/components/StressTestingView.tsx": {
+    "size": 27395,
+    "sha256": "40f59bbdc69d0549b7359fe0db337ec2f8a138b3b5d19a64b40a487c26ebd0ca"
+  },
+  "src/components/ExcelWorkbookViewer.tsx": {
+    "size": 30752,
+    "sha256": "79c2bfbc4a2429cd3070eb1ac08144f794b5e6050cdec36e8b5bd83f3a0017a2"
+  },
+  "src/data/synthetic_telemetry_dataset.json": {
+    "size": 120966,
+    "sha256": "a618a11a0e68f5553cc9e1b13921a20f207ee2158334bfdbd5e991648d8df8cc"
+  },
+  "src/data/stress_test_report.json": {
+    "size": 18347,
+    "sha256": "3c1cbbad5a86948ed82737ab54c3293658f7efa7855e3f266ea17e8f36b717f2"
+  },
+  "docs/INSTALLATION_GUIDE.md": {
+    "size": 2872,
+    "sha256": "b5a0d60a84020980db2c318721f9f0903d50834b20c205bc024bb90fbb68166b"
+  },
+  "docs/FORMULA_REFERENCE.md": {
+    "size": 2822,
+    "sha256": "c43f30676c4022fce52f75f2d5eb8368fb48cfe35f4bde9cfc824ab64b8c726a"
+  },
+  "docs/ENGINEERING_METHODOLOGY.md": {
+    "size": 2904,
+    "sha256": "689b04f14dfce651d63269022a168c77cd52782cebc477bfbe7bd2b636815270"
+  },
+  "docs/KNOWN_LIMITATIONS.md": {
+    "size": 2081,
+    "sha256": "c7da317bfa8afd6ceda9cf17d856d83b5ec570176916860b1fef87a81825f0c3"
+  },
+  "docs/VALIDATION_REPORT.md": {
+    "size": 3667,
+    "sha256": "4b6ae2afdaff6fc4ae165a0dbffa5bc6b23b26a348567f2a9e7e393c7df01468"
+  },
+  "docs/MODEL_DOCUMENTATION.md": {
+    "size": 3021,
+    "sha256": "8fbf7f4aaf50ec72dc8891a1537b5b77dde2e9fc01c5ebb96c15cc2070b29d2a"
+  },
+  "docs/USER_GUIDE.md": {
+    "size": 4226,
+    "sha256": "f9a54f05bf0a965400b1343aaf757288980c3bbc938b53a08b5a20b272ded72d"
+  },
+  "scripts/verify_stage12c.cjs": {
+    "size": 6488,
+    "sha256": "78296df257d8bd0a009f302ff2afc4d9150eaff7a28330ce8f88a35f049036c4"
+  },
+  "scripts/verify_stage6.cjs": {
+    "size": 9137,
+    "sha256": "cb1cb9937473e886430bdfd5e876c104c26947d774c3019dd26742dd25718777"
+  },
+  "scripts/run_benchmarks.ts": {
+    "size": 948,
+    "sha256": "de7f8838feca76e939b14d0789f224525c48044f96f44986a7d6e4a10c005f64"
+  },
+  "scripts/verify_stage3.cjs": {
+    "size": 6932,
+    "sha256": "1c8df646a030bd4cd0410c8bfe1fb323fb5a1e87e646d209e9633b431fc93d13"
+  },
+  "scripts/verify_stage5.cjs": {
+    "size": 10019,
+    "sha256": "028498097d30c6be848d3d9bf9df09fa123de76aa2d4e9ea7bbc381315fe92a9"
+  },
+  "scripts/verify_stage9.cjs": {
+    "size": 10093,
+    "sha256": "397adc4a82f8cb9ca93af38f647ebabdf976917eac306fc5b9a0915e41649bfe"
+  },
+  "scripts/verify_stage2.cjs": {
+    "size": 6132,
+    "sha256": "62ebfa834126753bf8127dcc6f36bcd9b6e45bd320a62e57ebde9c8f3636fb8f"
+  },
+  "scripts/build_stage2_workbook.cjs": {
+    "size": 61816,
+    "sha256": "6667f751f3b3a74c1b0bcaad75cbfecd95613bcca26cd295ff7da429f1ca0cda"
+  },
+  "scripts/verify_stage11.cjs": {
+    "size": 8393,
+    "sha256": "4303a05fa7b3ca677e829cc66a05fc4536681961b4abbce3a82ec32ed32b4aa1"
+  },
+  "scripts/verify_stage7.cjs": {
+    "size": 5356,
+    "sha256": "0ab0d4921b2e0586f1402aa13dac60b149e11529ff4a03f8788a1d5a25abe4d5"
+  },
+  "scripts/verify_stage4.cjs": {
+    "size": 11412,
+    "sha256": "fed60390b93a7c1fff4a2f6d4bf04ad0b9ab4edbacd9268ba8cf0a61dd0f0f00"
+  },
+  "scripts/verify_stage1.cjs": {
+    "size": 6194,
+    "sha256": "8b8c1808540909785715940cf252b7d95d1aed04ba4064b8a8350c28f339199b"
+  },
+  "scripts/verify_stage10.cjs": {
+    "size": 8318,
+    "sha256": "c6aa75e6045874f0f47b75faa5a5aaf09dd335328911fe61d8ff469abcf8c0ab"
+  },
+  "scripts/verify_stage8.cjs": {
+    "size": 5306,
+    "sha256": "542e2fc4e06b6811e6688c7c88f1ba9931715e2ba8e26f365883ae08a8dc4696"
+  },
+  "public/UNIT_77_MBR_SUPER_EXPERT.xlsx": {
+    "size": 42422,
+    "sha256": "c777a74aa39960ebc47920946952665581acc3317c289cb6d2ab1914001b573c"
+  },
+  "public/UNIT_77_MBR_SUPER_EXPERT_V1.0_FINAL_FULL_PROJECT.zip": {
+    "size": 475098,
+    "sha256": "8afaa7c808e9c059b6846e03e0486ce5847ad3f41422c48dad79dcc6cb452d3b"
+  },
+  "public/assets/aistudio/.gitignore": {
+    "size": 2,
+    "sha256": "cdbcae15105d6b781e620813c79c7e868740d4e9cc53ce6f5fcbbc12387adf4b"
+  },
+  "vba/SuperExpertMacros.bas": {
+    "size": 4340,
+    "sha256": "0a874249e00713833b6b16c1095dd3f5c28132e28cc9adcb7c5fc85bbe3331d2"
+  }
+}

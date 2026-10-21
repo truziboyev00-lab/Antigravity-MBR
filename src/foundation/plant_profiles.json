@@ -1,0 +1,237 @@
+{
+  "PROFILE_A_3_TRAINS": {
+    "plantIdentity": {
+      "plantName": "Petrochemical Industrial MBR — Complex A",
+      "siteId": "SITE_PETRO_01",
+      "unitId": "UNIT_MBR_03",
+      "processType": "Submerged Industrial MBR",
+      "configId": "CFG-PETRO-A-3T",
+      "configVersion": "1.1.0"
+    },
+    "topology": {
+      "installedTrainCount": 3,
+      "maxSupportedTrains": 7,
+      "canonicalTrainIds": ["T01", "T02", "T03"]
+    },
+    "trains": [
+      {
+        "trainId": "T01",
+        "trainName": "Petro MBR Train 01",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 3500.0,
+        "membraneModel": "TIPS-PVDF-0.03u",
+        "tankVolumeM3": 150.0,
+        "cleanRm": 1.62e12,
+        "cleanPermeabilityLmhBar": 220.0,
+        "designFluxLmh": 22.0
+      },
+      {
+        "trainId": "T02",
+        "trainName": "Petro MBR Train 02",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 3500.0,
+        "membraneModel": "TIPS-PVDF-0.03u",
+        "tankVolumeM3": 150.0,
+        "cleanRm": 1.62e12,
+        "cleanPermeabilityLmhBar": 220.0,
+        "designFluxLmh": 22.0
+      },
+      {
+        "trainId": "T03",
+        "trainName": "Petro MBR Train 03",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 3500.0,
+        "membraneModel": "TIPS-PVDF-0.03u",
+        "tankVolumeM3": 150.0,
+        "cleanRm": 1.62e12,
+        "cleanPermeabilityLmhBar": 220.0,
+        "designFluxLmh": 22.0
+      }
+    ],
+    "hydraulicDesign": {
+      "designInfluentFlowM3H": 231.0,
+      "designPermeateFlowM3H": 231.0,
+      "filtrationDutyRatio": 0.90
+    },
+    "tagMapping": {
+      "T01": { "TMP": "P01_PT_101", "PERMEATE_FLOW": "P01_FT_101" },
+      "T02": { "TMP": "P02_PT_101", "PERMEATE_FLOW": "P02_FT_101" },
+      "T03": { "TMP": "P03_PT_101", "PERMEATE_FLOW": "P03_FT_101" },
+      "PLANT": { "INFLUENT_FLOW": "PLANT_FT_001", "TEMPERATURE": "PLANT_TT_001" }
+    }
+  },
+  "PROFILE_B_4_TRAINS": {
+    "plantIdentity": {
+      "plantName": "Unit 77 Industrial MBR Facility",
+      "siteId": "SITE_GTL_SHURTAN",
+      "unitId": "UNIT_77",
+      "processType": "Industrial Wastewater MBR",
+      "configId": "CFG-UNIT-77-4T",
+      "configVersion": "1.1.0"
+    },
+    "topology": {
+      "installedTrainCount": 4,
+      "maxSupportedTrains": 7,
+      "canonicalTrainIds": ["T01", "T02", "T03", "T04"]
+    },
+    "trains": [
+      {
+        "trainId": "T01",
+        "trainName": "Train 01",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T02",
+        "trainName": "Train 02",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T03",
+        "trainName": "Train 03",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T04",
+        "trainName": "Train 04",
+        "installed": true,
+        "operatingStatus": "MAINTENANCE",
+        "membraneAreaM2": 5000.0,
+        "cleanRm": 1.45e12,
+        "cleanPermeabilityLmhBar": 245.0,
+        "designFluxLmh": 24.0
+      }
+    ],
+    "hydraulicDesign": {
+      "designInfluentFlowM3H": 460.8,
+      "designPermeateFlowM3H": 460.8,
+      "filtrationDutyRatio": 0.90
+    },
+    "tagMapping": {
+      "T01": { "TMP": "177-PT-001A", "PERMEATE_FLOW": "177-FT-001A" },
+      "T02": { "TMP": "177-PT-001B", "PERMEATE_FLOW": "177-FT-001B" },
+      "T03": { "TMP": "177-PT-001C", "PERMEATE_FLOW": "177-FT-001C" },
+      "T04": { "TMP": "177-PT-001D", "PERMEATE_FLOW": "177-FT-001D" },
+      "PLANT": { "INFLUENT_FLOW": "177-FIT-100", "TEMPERATURE": "177-TT-101" }
+    }
+  },
+  "PROFILE_C_7_TRAINS": {
+    "plantIdentity": {
+      "plantName": "Uzbekistan GTL Mega-Complex MBR",
+      "siteId": "SITE_GTL_MEGA",
+      "unitId": "UNIT_MBR_07",
+      "processType": "Full Secondary Effluent Recovery MBR",
+      "configId": "CFG-GTL-MEGA-7T",
+      "configVersion": "1.1.0"
+    },
+    "topology": {
+      "installedTrainCount": 7,
+      "maxSupportedTrains": 7,
+      "canonicalTrainIds": ["T01", "T02", "T03", "T04", "T05", "T06", "T07"]
+    },
+    "trains": [
+      {
+        "trainId": "T01",
+        "trainName": "Train 01",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T02",
+        "trainName": "Train 02",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T03",
+        "trainName": "Train 03",
+        "installed": true,
+        "operatingStatus": "STANDBY",
+        "membraneAreaM2": 4500.0,
+        "cleanRm": 1.55e12,
+        "cleanPermeabilityLmhBar": 235.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T04",
+        "trainName": "Train 04",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 5000.0,
+        "cleanRm": 1.45e12,
+        "cleanPermeabilityLmhBar": 245.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T05",
+        "trainName": "Train 05",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T06",
+        "trainName": "Train 06",
+        "installed": true,
+        "operatingStatus": "STANDBY",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      },
+      {
+        "trainId": "T07",
+        "trainName": "Train 07",
+        "installed": true,
+        "operatingStatus": "ONLINE",
+        "membraneAreaM2": 4800.0,
+        "cleanRm": 1.497e12,
+        "cleanPermeabilityLmhBar": 240.0,
+        "designFluxLmh": 24.0
+      }
+    ],
+    "hydraulicDesign": {
+      "designInfluentFlowM3H": 691.2,
+      "designPermeateFlowM3H": 691.2,
+      "filtrationDutyRatio": 0.90
+    },
+    "tagMapping": {
+      "T01": { "TMP": "GTL_PT_701", "PERMEATE_FLOW": "GTL_FT_701" },
+      "T02": { "TMP": "GTL_PT_702", "PERMEATE_FLOW": "GTL_FT_702" },
+      "T03": { "TMP": "GTL_PT_703", "PERMEATE_FLOW": "GTL_FT_703" },
+      "T04": { "TMP": "GTL_PT_704", "PERMEATE_FLOW": "GTL_FT_704" },
+      "T05": { "TMP": "GTL_PT_705", "PERMEATE_FLOW": "GTL_FT_705" },
+      "T06": { "TMP": "GTL_PT_706", "PERMEATE_FLOW": "GTL_FT_706" },
+      "T07": { "TMP": "GTL_PT_707", "PERMEATE_FLOW": "GTL_FT_707" },
+      "PLANT": { "INFLUENT_FLOW": "GTL_FIT_TOTAL", "TEMPERATURE": "GTL_TT_HEADER" }
+    }
+  }
+}
